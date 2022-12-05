@@ -1,0 +1,112 @@
+.dhwtopname{color: "white";
+                    margin-Top: 25;
+                    font-Size: "2em";
+                    font-family:'"Segoe UI", Tahoma, Geneva, Verdana, sans-serif'}
+
+a.mobile-link {
+    color:#00204c;
+    font-size:1.2em;
+   padding-bottom:100px;
+    padding-left:20px;
+    margin-top:25px;
+}
+a.mobile-link :hover{
+    color:#e1a122;
+    font-size:1.2em;
+    padding-bottom: 100px;
+    padding-left:20px;
+}
+
+
+.shade{background-color:#f9f9f9;}	
+.homepagetopcontent{margin-left:200px;width:75%; z-index:10}
+
+.homepagetopcontent .title{z-index:999999;}
+
+
+/*Background Images for each page: */
+.pageback-homepage{background-image:url(/images/background/open-front-door-960x496.jpg)}
+.pageback-about{background-image:url(/images/background/dallas-skyline.jpg)}
+.pageback-accred{background-image:url(/images/background/certification.jpg)}
+.pageback-con{background-image:url(/images/background/pickup-dry-cleaning.jpg)}
+.pageback-contact{background-image:url(/images/background/gated-community.jpg)}
+.pageback-hwchk{background-image:url(/images/background/homewatch-garage-services.jpg)}
+.pageback-keyh{background-image:url(/images/background/house-keys.png)}
+.pageback-news{background-image:url(/images/background/home-watch-news.jpg)}
+.pageback-privacy{background-image:url(/images/background/home-watch-news.jpg)}
+.pageback-terms{background-image:url(/images/background/home-watch-news.jpg)}
+.pageback-vehcare{background-image:url(/images/background/luxury-cars.jpg)}
+.pageback-blog{background-image:url(/images/background/dallas-skyline.jpg)}
+
+ul.sliderLogos{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.sliderLogos {
+  float: left;
+  margin-left:30px;
+}
+
+li.sliderLogos a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 56px;
+  text-decoration: none;
+}
+
+
+
+.btnstyletwo{
+	position: relative;
+	display: inline-block;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: 600;
+	overflow: hidden;
+	background:none;
+	border-radius:0px;
+	padding: 12px 35px 12px;
+	text-transform: uppercase;
+	background-color:#e1a122;
+}
+
+.btnstyletwo:before{
+	position: absolute;
+	content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.2, 1);
+    transform: scale(0.2, 1);
+	background-color:#00204c;
+}
+
+.btnstyletwo .txt{
+	position:relative;
+	z-index:1;
+}
+
+.btnstyletwo .arrow{
+	margin-left:6px;
+}
+
+.btnstyletwo:hover::before{
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.btnstyletwo:hover{
+	color: #ffffff;
+}
