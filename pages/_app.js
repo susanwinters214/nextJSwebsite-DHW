@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }) {
    
 
       <script src="js/jquery.js" strategy="afterInteractive"></script>
-      <script src="js/popper.min.js" strategy="afterInteractive"></script>
+      <script src="/js/popper.min.js" strategy="afterInteractive"></script>
       <script src="js/bootstrap.min.js" strategy="afterInteractive"></script>
       <script
         src="js/jquery.mCustomScrollbar.concat.min.js"

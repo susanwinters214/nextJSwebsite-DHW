@@ -9,6 +9,7 @@ function AccreditationPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch Accreditation</title>
+        <meta name="googlebot" content="noindex"></meta>
         <meta
           name="description"
           content="Dallas Home Watch received Accreditation from the National Home Watch Association."

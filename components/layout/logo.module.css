@@ -1,6 +1,5 @@
 .logo {
 color: "white";
-background-color:yellow;
 }
 
 .logoIcon{float:left}
@@ -11,6 +10,15 @@ color: "white";
 font-size: "2em";
 font-family:'"Segoe UI", Tahoma, Geneva, Verdana, sans-serif';
  }
+
+ a#logoName{
+float: "right";
+color: "white";
+font-size: "2em";
+font-family:'"Segoe UI", Tahoma, Geneva, Verdana, sans-serif';
+ }
+
+
 
  .logoTag{
   float: "right";

@@ -1,7 +1,6 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
-
+import Hero from "../components/home-page/hero";
 
 function HomePage(props) {
   return (
@@ -10,14 +9,9 @@ function HomePage(props) {
         <title>Dallas Home Watch</title>
         <meta name="description" content="Dallas Home Watch" />
 
-{ /* <!-- Google Tag Manager --> */ }
+        {/* <!-- Google Tag Manager --> */}
 
-{ /* <!-- End Google Tag Manager -->*/ }
-
-
-
-
-
+        {/* <!-- End Google Tag Manager -->*/}
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="banner-section">
@@ -542,7 +536,7 @@ function HomePage(props) {
         </div>
       </section>
 
-     
+      <Hero />
     </Fragment>
   );
 }

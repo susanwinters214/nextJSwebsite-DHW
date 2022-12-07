@@ -498,7 +498,7 @@ img{
 .sec-title h2{
     color:#00204c;
 	padding-bottom:20px;
-	text-transform:uppercase; 
+	/* text-transform:uppercase; */
 }
 
 .sec-title h2:before{
@@ -3213,6 +3213,28 @@ img{
 	background-position:center center;
 	background-attachment: fixed;
 }
+.blog-title{
+	position:relative;
+	padding:150px 0px 60px;
+	background-size:cover;
+	text-align:center;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
+}
+.blog-title:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,32,76,0.80);
+}
+.blog-title h1{
+	color:#ffffff;
+	font-size:48px;
+}
 
 .page-title.style-two{
 	padding-bottom:120px;
@@ -3301,7 +3323,7 @@ img{
 	position:absolute;
 	content:'';
 	left:0px;
-	top:160px;
+	top:160px; /* this adjusts the dark-blue background image at the top of the page  */
 	right:0px;
 	bottom:0px;
 	background-color:#f9f9f9;
@@ -3342,7 +3364,7 @@ img{
 
 .case-section .content-column .inner-column{
 	position:relative;
-	padding:90px 40px 50px;
+	padding:10px 40px 50px; /* Changed from 90px */
 }
 
 .case-section .content-column .text-box{

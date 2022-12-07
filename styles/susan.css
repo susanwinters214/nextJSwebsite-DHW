@@ -16,14 +16,17 @@ a.mobile-link :hover{
     padding-bottom: 100px;
     padding-left:20px;
 }
-
+a.phoneNumberLink{
+  color: #e1a122;}
+a.phoneNumberLink:hover{
+  color: #ffffff;}
 
 .shade{background-color:#f9f9f9;}	
 .homepagetopcontent{margin-left:200px;width:75%; z-index:10}
 
 .homepagetopcontent .title{z-index:999999;}
-
-
+.socialiconsfooter{margin: auto; width: 50%; padding: 10px;}
+.center {  margin: auto;  width: 50%;  padding: 10px;}
 /*Background Images for each page: */
 .pageback-homepage{background-image:url(/images/background/open-front-door-960x496.jpg)}
 .pageback-about{background-image:url(/images/background/dallas-skyline.jpg)}

@@ -36,6 +36,7 @@ function VehicleCarePage(props) {
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="image">
+                 
                     <video width={560} height={660} controls="">
                       <source
                         src="videos/ferrari-battery.mp4"

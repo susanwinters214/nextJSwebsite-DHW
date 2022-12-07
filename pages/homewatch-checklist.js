@@ -1,15 +1,18 @@
-import { Fragment } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-
-
+import { Fragment } from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
 
 function HomeWatchChecklistPage(props) {
   return (
     <Fragment>
       <Head>
         <title>Home Watch Checklist</title>
-        <meta name="description" content="I love web development." />
+        <meta
+          name="description"
+          content="Customize your Home Watch Checklist. We have a list of household items that we check when we come into your home. The items we check are the ones that could possibly be the source of issues. You are invited to customize your homewatch checklist to 
+          ensure everything you want checked is."
+        />
       </Head>
       {/* insert top banner with breadcrumb*/}
       <section className="page-title pageback-hwchk">
@@ -17,7 +20,7 @@ function HomeWatchChecklistPage(props) {
           <h1>Home Watch Check List</h1>
           <ul className="page-breadcrumb">
             <li>
-              <Link href="/">home</Link>
+              <a href="/">home</a>
             </li>
             <li>Home Watch Check List</li>
           </ul>
@@ -33,8 +36,10 @@ function HomeWatchChecklistPage(props) {
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="image">
-                    <img
-                      src="images/outdoor-ac-unit-inspection.jpg"
+                    <Image
+                      width={585}
+                      height={600}
+                      src="/images/outdoor-ac-unit-inspection.jpg"
                       alt="outside a/c unit inspection"
                     />
                   </div>
@@ -92,58 +97,61 @@ function HomeWatchChecklistPage(props) {
             <div className="inner-box">
               <div className="lower-content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Feugiat vivamus at augue eget arcu dictum. Mi bibendum neque
-                  egestas congue quisque egestas diam. Auctor augue mauris augue
-                  neque gravida in fermentum. Eleifend mi in nulla posuere
-                  sollicitudin. Fermentum et sollicitudin ac orci. Ridiculus mus
-                  mauris vitae ultricies leo integer malesuada. Vitae turpis
-                  massa sed elementum tempus egestas sed sed risus. Ornare
-                  suspendisse sed nisi lacus sed viverra tellus. Mi ipsum
-                  faucibus vitae aliquet nec ullamcorper sit amet. Cursus mattis
-                  molestie a iaculis. Nulla pellentesque dignissim enim sit amet
-                  venenatis urna cursus. Vitae semper quis lectus nulla at
-                  volutpat diam ut venenatis. Duis tristique sollicitudin nibh
-                  sit amet commodo. In vitae turpis massa sed elementum tempus
-                  egestas sed. Tellus in metus vulputate eu scelerisque felis
-                  imperdiet. Commodo ullamcorper a lacus vestibulum sed. Quis
-                  enim lobortis scelerisque fermentum.
+                  Dallas Home Watch provides a standard checklist of items that
+                  need to be checked in your home while you are away. You are
+                  able to customize your HomeWatch checklist to include items
+                  you may have in your home that are different than the average
+                  home owner. Our Home Watch Professionals will document all
+                  issues and provide you with a report so that you can make any
+                  necessary decisions on actions to be taken for any problems
+                  discovered.
                 </p>
                 <p>
-                  Erat imperdiet sed euismod nisi porta lorem mollis. Elementum
-                  curabitur vitae nunc sed. Quisque id diam vel quam elementum
-                  pulvinar etiam non quam. Elementum integer enim neque volutpat
-                  ac tincidunt vitae semper quis. Orci ac auctor augue mauris.
-                  Risus viverra adipiscing at in tellus integer feugiat
-                  scelerisque. Rhoncus urna neque viverra justo nec ultrices
-                  dui. Sagittis vitae et leo duis ut diam quam. Odio euismod
-                  lacinia at quis risus sed vulputate odio ut. In hac habitasse
-                  platea dictumst quisque. Hac habitasse platea dictumst quisque
-                  sagittis purus sit amet volutpat. At erat pellentesque
-                  adipiscing commodo. Tortor dignissim convallis aenean et
-                  tortor. Elementum eu facilisis sed odio morbi. Vestibulum
-                  rhoncus est pellentesque elit ullamcorper dignissim cras. Orci
-                  a scelerisque purus semper eget duis at. Etiam dignissim diam
-                  quis enim lobortis scelerisque. Venenatis cras sed felis eget
-                  velit. Quam quisque id diam vel quam elementum pulvinar etiam.
-                  Congue quisque egestas diam in arcu cursus.
+                  Dallas Home Watch knows how important it is that you feel your
+                  home is safe from vandalism. We will start by examing your
+                  property for any forced entry or broken windows. We use our
+                  Home Watch Checklist as we walk thru your home looking for any
+                  signs of potential damage to your property. We will check
+                  screens and porch enclosures for any sign of damage, remove
+                  newspapers, flyers, packages and debris from your front porch
+                  to avoid signs of an empty home.
                 </p>
                 <p>
-                  Cursus sit amet dictum sit amet. Egestas diam in arcu cursus
-                  euismod quis viverra nibh cras. Donec ultrices tincidunt arcu
-                  non sodales neque sodales ut. Sed euismod nisi porta lorem
-                  mollis. Blandit libero volutpat sed cras ornare arcu. A lacus
-                  vestibulum sed arcu. Ut venenatis tellus in metus. Egestas
-                  tellus rutrum tellus pellentesque eu tincidunt tortor. Orci eu
-                  lobortis elementum nibh tellus molestie nunc non. Gravida
-                  rutrum quisque non tellus orci ac auctor. Iaculis at erat
-                  pellentesque adipiscing commodo elit at imperdiet. Ipsum
-                  faucibus vitae aliquet nec ullamcorper sit amet. Quis eleifend
-                  quam adipiscing vitae. Sit amet luctus venenatis lectus magna
-                  fringilla urna porttitor rhoncus. Nec feugiat nisl pretium
-                  fusce id velit. Faucibus et molestie ac feugiat sed lectus
-                  vestibulum. Gravida dictum fusce ut placerat orci.
+                  Below is a demonstration of some of the many items we check
+                  while in your home including: Home Security Alarms, Water
+                  Leaks, Electrical Closets, Routers, Air Filters, A/C Units,
+                  Breaker Boxes, Washing Machines - CHECK: Thermostats,
+                  Refrigerators & Freezers (avoiding spoiled food), Ice Makers
+                  and Garbage Disposals, Flush Toilets, Run Water from Faucets,
+                  Check Windows, Ceilings, Water Heaters, Water Softner, Water
+                  Filters for leaks and verify salt level, Operate garage door
+                  opener to check drive chain mechanism, Irrigation Controller
+                  is functioning (inside garage only), Investitage any noises,
+                  alarms, beeps or odors. Turn on lights and fans throughout the
+                  house, Check elevator, Wine Cellar (Cleared wine cellar drain
+                  line plus replaced the batteries in the temp alert. Holding at
+                  55), Bulbs on timer lights are checked to make sure they are
+                  not burnt out.
+                </p>
+                <p>
+                  More items include: Check property for erosion or drainage
+                  problems, check for damage caused by fallen trees or limbs,
+                  verify landscaping has been performed, bring up the trashcans
+                  from the street or alley. We check the property to ensure all
+                  yard access is secure. We check outdoor faucets for leakage or
+                  covered in cold weather. If you have a swimming pool or
+                  outdoor fountain, we will check for algae growth or debris and
+                  check the pool equipment for leaks. We will let you know if
+                  the pump was running during our visit.
+                </p>
+                <p>
+                  Dallas Home Watch Professionals will check your home for
+                  visual pest infestations and remove any dead insects found.
+                  Occassionally we are asked to scare away any ducks or remove
+                  turtles. If we encounter any dangerous wildlife, we will
+                  immediately alert you to the issue so that the city's animal
+                  control center can come and professionally and safely remove
+                  it.
                 </p>
               </div>
             </div>
@@ -159,9 +167,11 @@ function HomeWatchChecklistPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h2 className="navy">home security alarm</h2>
+                    <h2 className="navy">Home Security Alarms</h2>
                     <div className="text-15">
-                      We make sure your alarm system is operational.
+                      We make sure your alarm system is operational. Dallas Home
+                      Watch will turn on the alarm and secure all entries when
+                      leaving.
                     </div>
                   </div>
                 </div>
@@ -169,8 +179,10 @@ function HomeWatchChecklistPage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/checking-security-alarm.jpg"
+                      <Image
+                        width={585}
+                        height={450}
+                        src="/images/checking-security-alarm.jpg"
                         alt="visual inspection of home security alarm"
                       />
                     </div>
@@ -191,8 +203,10 @@ function HomeWatchChecklistPage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/checking-under-bar-sink.jpg"
+                      <Image
+                        width={585}
+                        height={450}
+                        src="/images/checking-under-bar-sink.jpg"
                         alt="visual inspection of under the bar sink"
                       />
                     </div>
@@ -201,9 +215,10 @@ function HomeWatchChecklistPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h2 className="navy">Plumbing</h2>
+                    <h2 className="navy">Water Leaks</h2>
                     <div className="text-15">
-                      We check for leaks and mold caused by water damage.
+                      Our Home Watch Checklist includes inspecting under sinks
+                      looking for leaks and mold caused by water damage.
                     </div>
                   </div>
                 </div>
@@ -232,8 +247,10 @@ function HomeWatchChecklistPage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/check-electronics.jpg"
+                      <Image
+                        width={585}
+                        height={450}
+                        src="/images/check-electronics.jpg"
                         alt="visual inspection of electronic closet"
                       />
                     </div>
@@ -254,8 +271,10 @@ function HomeWatchChecklistPage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/checking-router.jpg"
+                      <Image
+                        width={585}
+                        height={450}
+                        src="/images/checking-router.jpg"
                         alt="visual inspection of home router"
                       />
                     </div>
@@ -286,10 +305,14 @@ function HomeWatchChecklistPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h2 className="navy">Replacing Air Filters</h2>
+                    <h2 className="navy">Air Filters</h2>
                     <div className="text-15">
-                      Dallas Home Watch can check and change your air filters on
-                      a timely basis.
+                      Dallas Home Watch will check your air filters and replace
+                      them when necessary. Just let us know where your new
+                      filters are located so that we can replace them while on
+                      site. We write the date on the air filters using a black
+                      Sharpie so that you will always know the date of the last
+                      time the filter was changed.
                     </div>
                   </div>
                 </div>
@@ -297,8 +320,10 @@ function HomeWatchChecklistPage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/installing-air-filters.jpg"
+                      <Image
+                        width={585}
+                        height={450}
+                        src="/images/installing-air-filters.jpg"
                         alt="installing air filters in the attic"
                       />
                     </div>
@@ -319,8 +344,10 @@ function HomeWatchChecklistPage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/checking-AC-in-attic.jpg"
+                      <Image
+                        width={585}
+                        height={450}
+                        src="/images/checking-AC-in-attic.jpg"
                         alt="visual inspection of the AC unit in the attic"
                       />
                     </div>
@@ -329,7 +356,7 @@ function HomeWatchChecklistPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h2 className="navy">A/C Unit</h2>
+                    <h2 className="navy">A/C Units</h2>
                     <div className="text-15">
                       We will do a visual inspection of your A/C units to ensure
                       there are no condensation leaks in the drip pan. We will
@@ -353,8 +380,10 @@ function HomeWatchChecklistPage(props) {
                   <div className="inner-column">
                     <h2 className="navy">Breaker Boxes</h2>
                     <div className="text-15">
-                      We look to see if any breakers have been tripped and if so
-                      we will reset them.
+                      We know how important it is not to loose electricity to
+                      your household applicances while you are away. We check
+                      your breaker box looking to see if any breakers have been
+                      tripped and if so we will reset them.
                     </div>
                   </div>
                 </div>
@@ -362,8 +391,10 @@ function HomeWatchChecklistPage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/checking-breaker-box.jpg"
+                      <Image
+                        width={585}
+                        height={450}
+                        src="/images/checking-breaker-box.jpg"
                         alt="checking breaker box"
                       />
                     </div>
@@ -384,8 +415,10 @@ function HomeWatchChecklistPage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/checking-washing-machine.jpg"
+                      <Image
+                        width={585}
+                        height={450}
+                        src="/images/checking-washing-machine.jpg"
                         alt="visual inspection of the washing machine"
                       />
                     </div>
@@ -394,55 +427,56 @@ function HomeWatchChecklistPage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h2 className="navy">Washing Machine</h2>
+                    <h2 className="navy">Washing Machines</h2>
                     <div className="text-15">
                       We will check your washing machine to make sure there is
-                      no water leaking and no unusual odors.
+                      no water leaking and no unusual odors coming from the
+                      machine.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          {/* Services Block 9 */}
+
+          <div className="services-block-three">
+            <div
+              className="inner-box wow fadeInUp"
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <div className="row clearfix">
+                {/* Content Column */}
+                <div className="content-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <h2 className="navy">Garage Doors & Openers</h2>
+                    <div className="text-15">
+                      We will open and close your garage doors to make sure
+                      everything is working properly.
+                    </div>
+                  </div>
+                </div>
+                {/* Image Column */}
+                <div className="image-column col-lg-6 col-md-12 col-sm-12">
+                  <div className="inner-column">
+                    <div className="image centered">
+                      <video
+                        controls
+                        src={"/videos/DHW-OpeningGarageDoor.mp4"}
+                        style={{ width: "560px", height: "400px" }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Block Detail */}
           <div className="blog-detail">
             <div className="inner-box">
-              <div className="lower-content">
-                <h2>Why Hire a Home Watch Service?</h2>
-                <p>
-                  The typical consumer assumes that Home Watch is either a
-                  security service or a house-sitting service when it is
-                  mentioned. Home Watch is not an alarm company nor a house
-                  sitting service. Instead, Home Watch professionals come into
-                  your home while you are away and perform a visual inspection
-                  of your home looking for issues that may warrant a call to the
-                  home owner informing them of problems like leaky faucets,
-                  clogged drains, air conditioning and/or heating problems, pool
-                  and fountain pump problems and more. The larger the home the
-                  more things that could go wrong and if left unattended, small
-                  problems can quickly lead to larger problems that can get very
-                  expensive to repair.
-                </p>
-                <p>
-                  The longer a house sits vacant the bigger the potential is
-                  that unauthorized persons may attempt to trespass and possibly
-                  intrude your home and possessions. Home Watch includes
-                  bringing in the mail and picking up boxes and newspapers or
-                  flyers from the front porch to assist in the home not
-                  appearing vacant.
-                </p>
-                <p>
-                  Dallas Home Watch serves the C-suite level homes and informs
-                  the homeowner of any problems found and adheres to their
-                  directions for their resolution and treatment. Because our
-                  clients often travel either out of state or out of the country
-                  for long periods of time, they can rest assured that Dallas
-                  Home Watch will visit their property on a consistant schedule
-                  and be their eyes and ears while they are away. If you leave
-                  your home vacant for more than 7 days, we recommend using a
-                  Home Watch service business.
-                </p>
-              </div>
+              <div className="lower-content"></div>
             </div>
           </div>
         </div>
@@ -453,7 +487,5 @@ function HomeWatchChecklistPage(props) {
     </Fragment>
   );
 }
-
-
 
 export default HomeWatchChecklistPage;

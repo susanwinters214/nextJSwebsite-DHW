@@ -6,38 +6,43 @@ import Image from "next/image";
 function Logo() {
   return (
     <Fragment>
-      <div className="footer-logo">
-        <div className="row">
-          <div className="col-md-2">
-            <div className="row">
-              
-                <div className="logoIcon">
-                  <a href="/">
-                    <Image
-                      src="/images/Dallas-Home-Watch-Logo.png"
-                      alt="Dallas Home Watch"
-                      title="Dallas Home Watch"
-                      width={100}
-                      height={100}
-                    />
-                  </a>
-                </div>
-              
+      <div className="pull-left logo-box">
+        <div className="logo">
+          <a href="/">
+            <Image
+              src="/images/Dallas-Home-Watch-Logo.png"
+              alt="Dallas Home Watch"
+              title="Dallas Home Watch"
+              width={60}
+              height={60}
+            />
+            <div
+              style={{
+                float: "right",
+                marginTop: 8,
+                paddingLeft: 5,
+                color: "white",
+                fontSize: "1.7em",
+                fontWeight: "500",
+                fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
+              }}
+            >
+              Dallas Home Watch
+              <br />
+              <span
+                style={{
+                  color: "white",
+                  marginTop: -10,
+                  fontSize: ".6em",
+                  fontWeight: "100",
+                  fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
+                }}
+              >
+                Home Watch Services in Dallas, Texas
+              </span>
             </div>
-          </div>
-
-          <div className="col-md-10">
-            <div className="row">
-              <div className="col-md-12">
-                <div className={classes.logoName}>
-                  <a href="/">Dallas Home Watch</a>
-                </div>
-                <div className={classes.logoTag}>
-                  Home Watch Services in Dallas, Texas
-                </div>
-              </div>
-            </div>
-          </div>
+          </a>
+          <br />
         </div>
       </div>
     </Fragment>

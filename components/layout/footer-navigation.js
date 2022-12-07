@@ -7,78 +7,42 @@ function FooterNavigation() {
     <>
       <footer className="main-footer">
         <div className="auto-container">
+          
+        
           {/* Widgets Section */}
           <div className="widgets-section">
             {/* Scroll To Top - removed */}
 
             <div className="row clearfix">
-              {/* Big Column */}
+              {/* LOGO in Grid */}
               <div className="big-column col-lg-6 col-md-12 col-sm-12">
-                <div className="row clearfix">
-                  {/*Footer Column*/}
-                  <div className="footer-column col-lg-7 col-md-6 col-sm-12">
-                    <div className="footer-widget logo-widget">
-                      <Logo />
-
-                      <br />
-                      {/* Social Nav */}
-                      <ul className="social-nav">
-                        <li className="linkedin">
-                          <a href="https://www.linkedin.com/company/dallas-home-watch/">
-                            <span className="fa fa-linkedin" />
-                          </a>
-                        </li>
-                        <li className="google">
-                          <a href="https://g.page/r/CTJlJWOvqHOnEAI/review">
-                            <span className="fa fa-google" />
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  {/*Footer Column*/}
-                  <div className="footer-column col-lg-5 col-md-6 col-sm-12">
-                    <div className="footer-widget links-widget"></div>
-                  </div>
-                </div>
+                <Logo />
               </div>
+
               {/* Big Column */}
               <div className="big-column col-lg-6 col-md-12 col-sm-12">
                 <div className="row clearfix">
-                  {/* Footer Column */}
                   <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                     <div className="footer-widget contact-widget">
                       <ul className="footer-list">
                         <li>
-                          <a href="/about">About Us</a>
+                          <Link href="/about">About Us</Link>
                         </li>
                         <li>
-                          <a href="/contact">Contact Us</a>
-                        </li>
-                        <li>
-                          <a href="/news">News</a>
-                        </li>
-                        <li>
-                          <a href="/blog">Blog</a>
+                          <Link href="/blog">Blog</Link>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  {/* Footer Column */}
                   <div className="footer-column col-lg-6 col-md-6 col-sm-12">
                     <div className="footer-widget contact-widget">
-                      <ul>
-                        <ul className="footer-list">
-                          <li>
-                            <a href="/accreditation">Accreditation</a>
-                          </li>
-                          <li>
-                            <a href="/privacy-policy">Privacy Policy</a>
-                          </li>
-                          <li>
-                            <a href="/terms-of-service">Terms of Service</a>
-                          </li>
-                        </ul>
+                      <ul className="footer-list">
+                        <li>
+                          <Link href="/privacy-policy">Privacy Policy</Link>
+                        </li>
+                        <li>
+                          <Link href="/terms-of-service">Terms of Service</Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -87,6 +51,38 @@ function FooterNavigation() {
             </div>
           </div>
         </div>
+
+        <div className="">
+          <div className="auto-container">
+            {/*Footer Column*/}
+            <div className="center">
+              <div className="footer-widget logo-widget">
+                <div className="socialiconsfooter center">
+                  {/* Social Nav */}
+                  <ul className="social-nav">
+                    <li className="linkedin">
+                      <a href="https://www.linkedin.com/company/dallas-home-watch/">
+                        <span className="fa fa-linkedin" />
+                      </a>
+                    </li>
+                    <li className="google">
+                      <a href="https://g.page/r/CTJlJWOvqHOnEAI/review">
+                        <span className="fa fa-google" />
+                      </a>
+                    </li>
+
+                    <li className="google">
+                      <a href="https://www.youtube.com/channel/UCzl3hTaEB3ds_IyRtJCr3kA">
+                        <span className="fa fa-youtube" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="footer-bottom">
           <div className="auto-container">
             <div className="copyright">

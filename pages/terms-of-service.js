@@ -27,7 +27,7 @@ function TermsPage() {
       <section className="portfolio-page project-style-two">
         <div className="auto-container" style={{ marginTop: "-100px" }}>
           <h2 style={{ textAlign: "center", marginBottom: 25 }}>
-            Terms of Service
+            Terms of Service of Dallas Home Watch
           </h2>
           <div className="row clearfix">
             <div className="project-block-one col-lg-12 col-md-6 col-sm-12">

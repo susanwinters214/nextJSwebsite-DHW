@@ -1,14 +1,17 @@
 import { Fragment } from "react";
 import Head from "next/head";
 import Link from "next/link";
-import Script from "next/script";
+import Image from "next/image";
 
 function AboutPage() {
   return (
     <Fragment>
       <Head>
         <title>About Dallas Home Watch</title>
-        <meta name="description" content="About Dallas Home Watch" />
+        <meta
+          name="description"
+          content="About Dallas Home Watch. Tina Lawson is the owner of Dallas Home Watch and services the homes of clients while they are away. Tina Lawson has been in the Home Watch Industry for over 20 years."
+        />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-about">
@@ -34,17 +37,10 @@ function AboutPage() {
                   <div className="sec-title">
                     <h2>Dallas Home Watch</h2>
                     <h3>Owned By: Tina Lawson</h3>
-
-                    <img id="DallasGif" src="#" />
-                   
-
-                    <>
-                      <Script src="getGiphyAPI.js" />
-                    </>
                   </div>
                   <div className="text">
                     <p>
-                      Ater 20+ years in personalized estate management, I feel
+                      After 20+ years in personalized estate management, I feel
                       we can throughly check on your luxury home or property
                       with thorough checks to mitigate issues together prior to
                       your return.
@@ -56,7 +52,7 @@ function AboutPage() {
                     </p>
                     <p>
                       We want to ease your worries while you are away by
-                      Automatically checking the interior, exterior plus the
+                      automatically checking the interior, exterior plus the
                       attic after all major storms.
                     </p>
                   </div>
@@ -75,10 +71,16 @@ function AboutPage() {
                     data-wow-delay="0ms"
                     data-wow-duration="1500ms"
                   >
-                    <img src="images/tina-lawson.jpg" alt="Tina Lawson" />
+                    <Image
+                      src="/images/tina-lawson.jpg"
+                      alt="Tina Lawson"
+                      width={565}
+                      height={600}
+                    />
                     <br />
                     <center>
-                      Photo of Tina Lawson, Owner of Dallas Home Watch
+                      Photo of{" "}
+                      <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">Tina Lawson</a>, Owner of Dallas Home Watch
                     </center>
                   </div>
                 </div>

@@ -8,6 +8,7 @@ function NewsPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch News</title>
+        <meta name="googlebot" content="noindex"></meta>
         <meta
           name="description"
           content="Dallas Home Watch News - from social media sites and more"
@@ -42,7 +43,7 @@ function NewsPage(props) {
                         data-widget-id={114457}
                         data-tags="false"
                       />
-                      here
+                     
                       <script
                         src="https://widget.taggbox.com/embed-lite.min.js"
                         type="text/javascript"

@@ -8,16 +8,19 @@ function PrivacyPage() {
     <Fragment>
       <Head>
         <title>Privacy Policy</title>
-        <meta name="description" content="Our Privacy Policy" />
+        <meta
+          name="description"
+          content="Privacy Policy for Dallas Home Watch"
+        />
       </Head>
 
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title style-two pageback-privacy">
         <div className="auto-container">
-          <h1>Privacy Policy</h1>
+          <h1>Privacy Policy </h1>
           <ul className="page-breadcrumb">
             <li>
-              <a href="">home</a>
+              <a href="/">home</a>
             </li>
             <li>Privacy Policy</li>
           </ul>
@@ -28,7 +31,7 @@ function PrivacyPage() {
       <section className="portfolio-page project-style-two">
         <div className="auto-container" style={{ marginTop: "-100px" }}>
           <h2 style={{ textAlign: "center", marginBottom: 25 }}>
-            Privacy Policy
+            Privacy Policy of Dallas Home Watch
           </h2>
           <div className="row clearfix">
             <div className="project-block-one col-lg-12 col-md-6 col-sm-12">

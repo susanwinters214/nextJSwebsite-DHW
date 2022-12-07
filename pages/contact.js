@@ -1,13 +1,13 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
-
 import ContactForm from '../components/contact/contact-form';
 
 function ContactPage() {
   return (
     <Fragment>
       <Head>
-        <title>Contact Me</title>
+        <title>Contact Dallas HomeWatch</title>
+        <meta name="googlebot" content="noindex"></meta>
         <meta name="description" content="Send me your messages!" />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
