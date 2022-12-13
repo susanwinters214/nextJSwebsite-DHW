@@ -25,10 +25,8 @@ function TermsPage() {
 
       {/* insert section component with SEO Content */}
       <section className="portfolio-page project-style-two">
-        <div className="auto-container" style={{ marginTop: "-100px" }}>
-          <h2 style={{ textAlign: "center", marginBottom: 25 }}>
-            Terms of Service of Dallas Home Watch
-          </h2>
+        <div className="auto-container pageContent1">
+          <h2 className="pageTitle">Terms of Service of Dallas Home Watch</h2>
           <div className="row clearfix">
             <div className="project-block-one col-lg-12 col-md-6 col-sm-12">
               <div className="inner-box">

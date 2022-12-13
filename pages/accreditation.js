@@ -2,14 +2,14 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Hero from '../components/home-page/hero';
-
+import Image from "next/image";
 
 function AccreditationPage(props) {
   return (
     <Fragment>
       <Head>
         <title>Dallas Home Watch Accreditation</title>
-        <meta name="googlebot" content="noindex"></meta>
+      
         <meta
           name="description"
           content="Dallas Home Watch received Accreditation from the National Home Watch Association."
@@ -34,14 +34,16 @@ function AccreditationPage(props) {
             <div className="clearfix">
               {/* Image Column */}
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                <div className="inner-column">
+                <div className="inner-column centered">
                   <div
                     className="image wow fadeInLeft"
                     data-wow-delay="0ms"
                     data-wow-duration="1500ms"
                   >
-                    <img
-                      src="images/national-home-watch-conference.jpg"
+                    <Image
+                      width={400}
+                      height={520}
+                      src="/images/national-home-watch-conference.jpg"
                       alt="National Home Watch Association Member"
                     />
                   </div>
@@ -51,8 +53,8 @@ function AccreditationPage(props) {
               <div className="content-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
                   {/* Sec Title */}
-                  <div className="sec-title">
-                    <h2>About Accreditation</h2>
+                  <div className="sec-title centered">
+                    <h2 className="pageTitle">About Accreditation</h2>
                     <div className="text">
                       Accredited members of the NHWA must pass a strict vetting
                       process for consumer complaints or issues. They must carry
@@ -64,8 +66,10 @@ function AccreditationPage(props) {
                     </div>
                   </div>
                   <div className="text-box">
-                    <img
-                      src="images/nhwa-member-logo.jpg"
+                    <Image
+                      width={500}
+                      height={120}
+                      src="/images/nhwa-member-logo.jpg"
                       alt="Accredited Home Watch Memeber of National Home Watch Association"
                     />
                     <a
@@ -97,7 +101,7 @@ function AccreditationPage(props) {
                 data-wow-duration="1500ms"
               >
                 <div className="icon flaticon-secure-shield" />
-                <h5>Accreditation</h5>
+                <h3 className="sec-title blue">Accreditation</h3>
                 <div className="text">
                   <ul style={{ paddingLeft: "10%", paddingRight: "10%" }}>
                     <li className="accred">
@@ -194,7 +198,7 @@ function AccreditationPage(props) {
                         <div className="content">
                           <div className="icon flaticon-briefcase" />
                           <div className="count-outer count-box"></div>
-                          <h6 className="counter-title">Licensed</h6>
+                          <div className="counter-title">Licensed</div>
                           <p>#000000</p>
                         </div>
                       </div>
@@ -209,7 +213,7 @@ function AccreditationPage(props) {
                         <div className="content">
                           <div className="icon flaticon-balance" />
                           <div className="count-outer count-box"></div>
-                          <h6 className="counter-title">Bonded</h6>
+                          <div className="counter-title">Bonded</div>
                           <p>#2222222</p>
                         </div>
                       </div>
@@ -224,7 +228,7 @@ function AccreditationPage(props) {
                         <div className="content">
                           <div className="icon flaticon-piggy-bank" />
                           <div className="count-outer count-box"></div>
-                          <h6 className="counter-title">Insured</h6>
+                          <div className="counter-title">Insured</div>
                           <p>State Farm Insurance</p>
                         </div>
                       </div>
@@ -239,7 +243,7 @@ function AccreditationPage(props) {
                         <div className="content">
                           <div className="icon flaticon-trophy-2" />
                           <div className="count-outer count-box"></div>
-                          <h6 className="counter-title">Accredited</h6>
+                          <div className="counter-title">Accredited</div>
                           <p>By National Home Watch Association</p>
                         </div>
                       </div>
@@ -278,32 +282,40 @@ function AccreditationPage(props) {
               <ul className="sliderLogos">
                 <li className="sliderLogos">
                   <figure className="image-box">
-                    <img
-                      src="images/logos/Dallas-Chamber-of-Commerce.jpg"
+                    <Image
+                      width={250}
+                      height={100}
+                      src="/images/logos/Dallas-Chamber-of-Commerce.jpg"
                       alt="Dallas Chamber of Commerce"
                     />
                   </figure>
                 </li>
                 <li className="sliderLogos">
                   <figure className="image-box">
-                    <img
-                      src="images/logos/nhwa-header-logo-250x100.jpg"
+                    <Image
+                      width={250}
+                      height={100}
+                      src="/images/logos/nhwa-header-logo-250x100.jpg"
                       alt="National Home Watch Association"
                     />
                   </figure>
                 </li>
                 <li className="sliderLogos">
                   <figure className="image-box">
-                    <img
-                      src="images/logos/certified-woman-owned-business.jpg"
+                    <Image
+                      width={250}
+                      height={100}
+                      src="/images/logos/certified-woman-owned-business.jpg"
                       alt="Woman Owned Business"
                     />
                   </figure>
                 </li>
                 <li className="sliderLogos">
                   <figure className="image-box">
-                    <img
-                      src="images/logos/NHWA-Certified-Logo-250x100.png"
+                    <Image
+                      width={250}
+                      height={100}
+                      src="/images/logos/NHWA-Certified-Logo-250x100.png"
                       alt="National Home Watch Certified Member"
                     />
                   </figure>

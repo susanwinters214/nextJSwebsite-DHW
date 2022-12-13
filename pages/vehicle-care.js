@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Hero from '../components/home-page/hero';
-
+import Image from "next/image";
 
 function VehicleCarePage(props) {
   return (
@@ -36,15 +36,12 @@ function VehicleCarePage(props) {
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="image">
-                 
-                    <video width={560} height={660} controls="">
-                      <source
-                        src="videos/ferrari-battery.mp4"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    {/*img src="images/outdoor-ac-unit-inspection.jpg" alt="outside a/c unit inspection" /*/}
+                    <Image
+                      src="/images/car-care/car-battery-red-ferrari-genuine.jpg"
+                      alt="ferrari wall battery charger"
+                      width={555}
+                      height={655}
+                    />
                   </div>
                 </div>
               </div>
@@ -53,15 +50,19 @@ function VehicleCarePage(props) {
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title">
-                    <h2>Vehicle Care</h2>
+                    <h2>Stored Car Care</h2>
                     <div className="text">
                       We will visually check the vehicles stored in your garage
                       as well as its wall battery to make sure you don't come
                       home to a flat tire or dead battery.
                     </div>
                     <div className="text">
-                      Tina Lawson with Dallas Home Watch has experience with the
-                      following types of vehicles:
+                      Vehicle Care Service is an additional fee and is only
+                      available for Home Watch clients under contract.
+                    </div>
+                    <div className="text">
+                      Dallas Home Watch has experience operating the following
+                      types of vehicles:
                     </div>
                   </div>
                   <div className="row clearfix">
@@ -71,6 +72,8 @@ function VehicleCarePage(props) {
                         <li>Bentley</li>
                         <li>Tesla</li>
                         <li>Mercedes</li>
+                        <li>Cadillac</li>
+                        <li>Porche</li>
                       </ul>
                     </div>
                     <div className="column col-lg-6 col-md-6 col-sm-6">
@@ -78,17 +81,23 @@ function VehicleCarePage(props) {
                         <li>Rolls-Royce</li>
                         <li>Lamborghini</li>
                         <li>BMW</li>
+                        <li>Hummer</li>
+                        <li>Motorcycles</li>
                         <li>and more</li>
                       </ul>
                     </div>
                   </div>
-                  <div className="btns-box btn-style-one">
+
+                  {/*
+                         <div className="btns-box btn-style-one">
                     <Link href="/contact">
                       <span className="txt">
                         Free Consultation <i className="arrow flaticon-right" />
                       </span>
                     </Link>
+
                   </div>
+                    */}
                 </div>
               </div>
             </div>
@@ -110,9 +119,7 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h2>
-                      <a href="corporate_law.html">Car Batteries</a>
-                    </h2>
+                    <h3 className="boxTitle">Car Batteries</h3>
                     <div className="text">
                       Dallas Home Watch will check the wall battery of your
                       luxury vehicles to ensure your car is getting power.
@@ -128,8 +135,10 @@ function VehicleCarePage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/car-battery-bentley.jpg"
+                      <Image
+                        width={585}
+                        height={460}
+                        src="/images/car-care/car-battery-bentley.jpg"
                         alt="Bentley Battery"
                       />
                     </div>
@@ -150,21 +159,19 @@ function VehicleCarePage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <a href="corporate_law.html">
-                        <img
-                          src="images/car-tire-mercedes.jpg"
-                          alt="Mercedes Tire"
-                        />
-                      </a>
+                      <Image
+                        width={585}
+                        height={460}
+                        src="/images/car-care/car-tire-mercedes.jpg"
+                        alt="Mercedes Tire"
+                      />
                     </div>
                   </div>
                 </div>
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h2>
-                      <a href="corporate_law.html">No Flat Tires</a>
-                    </h2>
+                    <h3 className="boxTitle">Car Service</h3>
                     <div className="text">
                       We will keep an eye on the vehicles you have in your
                       garage and inform you if any tires are obviously low on
@@ -189,9 +196,7 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h2>
-                      <a href="corporate_law.html">Garage Door Openers</a>
-                    </h2>
+                    <h3 className="boxTitle">Garage Door Openers</h3>
                     <div className="text">
                       Dallas Home Watch will make sure that your garage door
                       openers are working properly and can meet with your garage
@@ -204,8 +209,10 @@ function VehicleCarePage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/garage-door-openers.jpg"
+                      <Image
+                        width={585}
+                        height={460}
+                        src="/images/car-care/garage-door-openers.jpg"
                         alt="Tina Lawson checking garage doors and openers"
                       />
                     </div>
@@ -226,8 +233,10 @@ function VehicleCarePage(props) {
                 <div className="image-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
                     <div className="image">
-                      <img
-                        src="images/garage-door-wireless-keypad-check.jpg"
+                      <Image
+                        width={585}
+                        height={460}
+                        src="/images/car-care/garage-door-wireless-keypad-check.jpg"
                         alt="inspector checking the garage door wireless keypad"
                       />
                     </div>
@@ -236,9 +245,8 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h2>
-                      <a href="corporate_law.html">Garage Door Entries</a>
-                    </h2>
+                    <h3 className="boxTitle">Garage Door Entries</h3>
+
                     <div className="text">
                       Dallas Home Watch will check your external wireless keypad
                       to ensure it is working and also verify the outside motion
@@ -260,7 +268,7 @@ function VehicleCarePage(props) {
             className="blog-detail"
             style={{ marginTop: "10px", marginBottom: 50 }}
           >
-            <h2>Why Would I Need A Vehicle Care While Out Of Town?</h2>
+            <h2>Why Would I Need Vehicle Care While Out Of Town?</h2>
 
             <div className="inner-box">
               <div className="lower-content">

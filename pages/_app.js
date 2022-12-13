@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
+        <meta name="googlebot" content="noindex"></meta>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="viewport"
@@ -21,7 +22,6 @@ function MyApp({ Component, pageProps }) {
       <div className="page-wrapper">
         <Component {...pageProps} />
       </div>
-   
 
       <script src="js/jquery.js" strategy="afterInteractive"></script>
       <script src="/js/popper.min.js" strategy="afterInteractive"></script>

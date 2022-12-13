@@ -26,7 +26,7 @@ function AboutPage() {
         </div>
       </section>
 
-      {/* insert section component with SEO Content */}
+    
       <section className="case-section">
         <div className="auto-container">
           <div className="inner-container">
@@ -34,26 +34,22 @@ function AboutPage() {
               {/* Content Column */}
               <div className="content-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
-                  <div className="sec-title">
-                    <h2>Dallas Home Watch</h2>
+                  <div className="sec-title first">
+                    <h2 className="pushdown25">Dallas Home Watch</h2>
                     <h3>Owned By: Tina Lawson</h3>
                   </div>
                   <div className="text">
-                    <p>
-                      After 20+ years in personalized estate management, I feel
-                      we can throughly check on your luxury home or property
-                      with thorough checks to mitigate issues together prior to
-                      your return.
+                    <p className="first">
+                      After 20+ years in personalized estate management, we have
+                      gained the experience to throughly check on your luxury
+                      home or property with thorough checks to mitigate issues
+                      together prior to your return.
                     </p>
-                    <p>
-                      There is a huge need in the Dallas area to discreetly
-                      check your home per your preferred frequencies and work
-                      together toward any solution should property issues arise.
-                    </p>
+
                     <p>
                       We want to ease your worries while you are away by
-                      automatically checking the interior, exterior plus the
-                      attic after all major storms.
+                      automatically checking the interior and exterior of your home. We also inspect your attic
+                      after major storms looking for roof damage and water leaks. 
                     </p>
                   </div>
                   <div className="text-box">
@@ -67,20 +63,32 @@ function AboutPage() {
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div
-                    className="image wow fadeInLeft"
+                    className="image wow fadeInLeft pushdown50"
                     data-wow-delay="0ms"
                     data-wow-duration="1500ms"
                   >
-                    <Image
-                      src="/images/tina-lawson.jpg"
-                      alt="Tina Lawson"
-                      width={565}
-                      height={600}
-                    />
-                    <br />
                     <center>
+                      <Image                        
+                        src="/images/tina-lawson.jpg"
+                        alt="Tina Lawson"
+                        width={300}
+                        height={300}
+                      />
+                      <br />
                       Photo of{" "}
-                      <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">Tina Lawson</a>, Owner of Dallas Home Watch
+                      <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">
+                        Tina Lawson
+                      </a>
+                      , Owner of Dallas Home Watch
+                      <br />
+                      <br />
+                      <p className="about">
+                        Dallas Home Watch provides the service of discreetly
+                        checking your home while you are away. The home owner
+                        can designate the preferred frequency of visits and we
+                        work together toward any solution should property issues
+                        arise.
+                      </p>
                     </center>
                   </div>
                 </div>

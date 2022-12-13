@@ -1,13 +1,14 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
 import Hero from "../components/home-page/hero";
+import Link from "next/link";
 
 function HomePage(props) {
   return (
     <Fragment>
       <Head>
         <title>Dallas Home Watch</title>
-        <meta name="description" content="Dallas Home Watch" />
+        <meta name="description" content="Dallas Home Watch is company that provides professional Home Watch Services for home owners in Dallas. Home Watch professionals perform a visual inspection of your home while you are away and alert you of any concerns about the conditions of the real estate." />
 
         {/* <!-- Google Tag Manager --> */}
 
@@ -50,7 +51,9 @@ function HomePage(props) {
                         {/* Services Block HOME WATCH*/}
                         <div className="services-block col-lg-6 col-md-12 col-sm-12">
                           <div className="homepagetopcontent">
-                            <div className="title">Luxury Estate Services</div>
+                            <div className="hptitle">
+                              Luxury Estate Services
+                            </div>
                             <h1>
                               Dallas <br /> Home Watch Services
                             </h1>
@@ -59,22 +62,25 @@ function HomePage(props) {
                               inspections of a home or property, looking for
                               obvious issues.
                             </h2>
-                            <h3 className="textHome">
-                              Home watch inspections provide peace of mind about
-                              your property while you are away.
-                            </h3>
+
                             <div className="btns-box">
                               <a
-                                href="/contact"
+                                href="tel:972-982-7050"
                                 className="theme-btn btn-style-one"
                               >
                                 <span className="txt">
-                                  Request Pricing
+                                  Call For Appointment
                                   <i className="arrow flaticon-right" />
                                 </span>
                               </a>
                             </div>
+
+                           
                           </div>
+                          <h3 className="textHome2">
+                            Home watch inspections provide peace of mind about
+                            your property while you are away.
+                          </h3>
                         </div>
                       </div>
                     </div>
@@ -101,7 +107,7 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-file" />
                     <h4>
-                      <a href="/home-watch-checklist">Home Watch</a>
+                      <Link href="/home-watch-checklist">Home Watch Services</Link>
                     </h4>
                     <div className="text">
                       We perform a visual inspection of your home and keep you
@@ -124,7 +130,7 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-file-1" />
                     <h4>
-                      <a href="/keyholder-services">Key Holder Services</a>
+                      <Link href="/keyholder-services">Key Holder Services</Link>
                     </h4>
                     <div className="text">
                       We can allow vendor and contractor access to your home and
@@ -147,7 +153,7 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-umbrella-1" />
                     <h4>
-                      <a href="/concierge-services">Concierge Services</a>
+                      <Link href="/concierge-services">Concierge Services</Link>
                     </h4>
                     <div className="text">
                       Professional services performed so that you can enjoy your
@@ -170,7 +176,7 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-car-1" />
                     <h4>
-                      <a href="/vehicle-care">Vehicle Care</a>
+                      <Link href="/vehicle-care">Vehicle Care</Link>
                     </h4>
                     <div className="text">
                       We alert you of low tires or battery and meet with your
@@ -240,7 +246,7 @@ function HomePage(props) {
                       </span>
                     </a>
                     <a
-                      href="home-watch-checklist.html"
+                      href="homewatch-checklist"
                       className="theme-btn btn-style-three"
                     >
                       <span className="txt">

@@ -29,10 +29,8 @@ function PrivacyPage() {
 
       {/* insert section component with SEO Content */}
       <section className="portfolio-page project-style-two">
-        <div className="auto-container" style={{ marginTop: "-100px" }}>
-          <h2 style={{ textAlign: "center", marginBottom: 25 }}>
-            Privacy Policy of Dallas Home Watch
-          </h2>
+        <div className="auto-container pageContent1">
+          <h2 className="pageTitle">Privacy Policy of Dallas Home Watch</h2>
           <div className="row clearfix">
             <div className="project-block-one col-lg-12 col-md-6 col-sm-12">
               <div className="inner-box">
@@ -83,7 +81,7 @@ function PrivacyPage() {
                     </p>
                     <h2 className="priv">Cookies</h2>
                     <p>
-                      Cookies are files with small amount of data, which may
+                      Cookies are files with small amounts of data, which may
                       include an anonymous unique identifier. Cookies are sent
                       to your browser from a web site and stored on your
                       computer's hard drive.
@@ -144,12 +142,12 @@ function PrivacyPage() {
                     </p>
                     <p>
                       We do not knowingly collect personally identifiable
-                      information from children under 13. If you are a parent or
-                      guardian and you are aware that your Children has provided
-                      us with Personal Information, please contact us. If we
-                      discover that a Children under 13 has provided us with
-                      Personal Information, we will delete such information from
-                      our servers immediately.
+                      information from children under the age of 13. If you are
+                      a parent or guardian and you are aware that your child has
+                      provided us with Personal Information, please contact us.
+                      If we discover that a child under 13 years of age has
+                      provided us with Personal Information, we will delete such
+                      information from our servers immediately.
                     </p>
                     <h2 className="priv">Changes To This Privacy Policy</h2>
                     <p>

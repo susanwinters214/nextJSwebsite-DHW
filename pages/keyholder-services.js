@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-
+import Image from "next/image";
 
 
 function KeyHolderPage(props) {
@@ -11,7 +11,7 @@ function KeyHolderPage(props) {
         <title>Key Holder Services | Dallas Home Watch </title>
         <meta
           name="description"
-          content="Dallas Home Watch offers Key Holder Services for existing Home Watch clients."
+          content="Dallas Home Watch offers Key Holder Services for existing Home Watch clients. A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service. The Key Holder will supervise the contractor and confirm with the home owner that the work is done, then lock up the house and leave."
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -32,19 +32,21 @@ function KeyHolderPage(props) {
         <div className="auto-container">
           <div className="inner-container">
             <div className="image">
-              <img
-                src="images/key-holder.jpg"
+              <Image
+                width={1120}
+                height={460}
+                src="/images/key-holder/key-holder.jpg"
                 alt="handing over the keys from one person to another"
               />
             </div>
             <div className="lower-content">
               <h2>Leave Your Keys In Trusting Hands</h2>
               <p>
-                When you own a large home there are alot of things you need to
+                When you own a large home there are a lot of things you need to
                 manage. If you are a busy executive that spends a lot of time at
                 the office, you don't have time to stay at home waiting around
-                on deliveries and contractors needing access to your home to
-                complete their projects. Dallas Home Watch can hold your keys
+                on wine deliveries and contractors needing access to your home
+                to complete their projects. Dallas Home Watch can hold your keys
                 and be your authorized on-site dedicated person to meet with
                 vendors and contractors giving you back your time to continue
                 doing what you do best.
@@ -88,6 +90,9 @@ function KeyHolderPage(props) {
                   </ul>
                 </div>
               </div>
+
+              {/*
+              
               <div className="btn-box btn-style-one">
                 <Link href="/contact" className="theme-btn ">
                   <span className="txt">
@@ -95,6 +100,7 @@ function KeyHolderPage(props) {
                   </span>
                 </Link>
               </div>
+ */}
             </div>
           </div>
         </div>
