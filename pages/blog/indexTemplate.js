@@ -28,48 +28,14 @@ return (
           <div className="inner-box">
             <div className="blog-details">
               <p>
-                First paragraph starts here sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Feugiat vivamus at augue eget arcu dictum. Mi bibendum
-                neque egestas congue quisque egestas diam. Auctor augue mauris
-                augue neque gravida in fermentum. Eleifend mi in nulla posuere
-                sollicitudin. Fermentum et sollicitudin ac orci. Ridiculus mus
-                mauris vitae ultricies leo integer malesuada. Vitae turpis massa
-                sed elementum tempus egestas sed sed risus. Ornare suspendisse
-                sed nisi lacus sed viverra tellus. Mi ipsum faucibus vitae
-                aliquet nec ullamcorper sit amet. Cursus mattis molestie a
-                iaculis. Nulla pellentesque dignissim enim sit amet venenatis
-                urna cursus. Vitae semper quis lectus nulla at volutpat diam ut
-                venenatis. Duis tristique sollicitudin nibh sit amet commodo. In
-                vitae turpis massa sed elementum tempus egestas sed. Tellus in
-                metus vulputate eu scelerisque felis imperdiet. Commodo
-                ullamcorper a lacus vestibulum sed. Quis enim lobortis
-                scelerisque fermentum.
+                First paragraph starts here 
               </p>
 
               <div className="row clearfix">
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <p>
-                    Second paragragph starts here. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Feugiat vivamus
-                    at augue eget arcu dictum. Mi bibendum neque egestas congue
-                    quisque egestas diam. Auctor augue mauris augue neque
-                    gravida in fermentum. Eleifend mi in nulla posuere
-                    sollicitudin. Fermentum et sollicitudin ac orci. Ridiculus
-                    mus mauris vitae ultricies leo integer malesuada. Vitae
-                    turpis massa sed elementum tempus egestas sed sed risus.
-                    Ornare suspendisse sed nisi lacus sed viverra tellus. Mi
-                    ipsum faucibus vitae aliquet nec ullamcorper sit amet.
-                    Cursus mattis molestie a iaculis. Nulla pellentesque
-                    dignissim enim sit amet venenatis urna cursus. Vitae semper
-                    quis lectus nulla at volutpat diam ut venenatis. Duis
-                    tristique sollicitudin nibh sit amet commodo. In vitae
-                    turpis massa sed elementum tempus egestas sed. Tellus in
-                    metus vulputate eu scelerisque felis imperdiet. Commodo
-                    ullamcorper a lacus vestibulum sed. Quis enim lobortis
-                    scelerisque fermentum.
+                    Second paragragph starts here. 
                   </p>
                 </div>
                 {/* Image Column */}
@@ -85,25 +51,7 @@ return (
                 </div>
               </div>
 
-              <p>
-                Third paragraph starts here. sed euismod nisi porta lorem
-                mollis. Elementum curabitur vitae nunc sed. Quisque id diam vel
-                quam elementum pulvinar etiam non quam. Elementum integer enim
-                neque volutpat ac tincidunt vitae semper quis. Orci ac auctor
-                augue mauris. Risus viverra adipiscing at in tellus integer
-                feugiat scelerisque. Rhoncus urna neque viverra justo nec
-                ultrices dui. Sagittis vitae et leo duis ut diam quam. Odio
-                euismod lacinia at quis risus sed vulputate odio ut. In hac
-                habitasse platea dictumst quisque. Hac habitasse platea dictumst
-                quisque sagittis purus sit amet volutpat. At erat pellentesque
-                adipiscing commodo. Tortor dignissim convallis aenean et tortor.
-                Elementum eu facilisis sed odio morbi. Vestibulum rhoncus est
-                pellentesque elit ullamcorper dignissim cras. Orci a scelerisque
-                purus semper eget duis at. Etiam dignissim diam quis enim
-                lobortis scelerisque. Venenatis cras sed felis eget velit. Quam
-                quisque id diam vel quam elementum pulvinar etiam. Congue
-                quisque egestas diam in arcu cursus.
-              </p>
+           
             </div>
           </div>
         </div>

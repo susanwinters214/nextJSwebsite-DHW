@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-
+import Document, { Html, Main, NextScript } from "next/document";
 import classes from './post-item.module.css';
 
 function PostItem(props) {

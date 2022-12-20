@@ -123,7 +123,13 @@ p.about{padding:20px;margin-left:10%;margin-right:10%}
 .pageTitle{margin-bottom:25px;text-align: center ; color:#00204c;}
 .blue{color:#00204c}
 .gold{ color:#e1a122}
+.footer-list{margin-left:50px;}
+
+
+.socialiconsfooter{width:100%; 
+   text-align:center;}
 .boxTitle{text-transform: uppercase;color:#00204c; font-size:2.5em;  font-family:'"Segoe UI", Tahoma, Geneva, Verdana, sans-serif'}
-.hptitle{color: #e1a122;}
+.hptitle{color: #e1a122; padding-left:20px;}
+#Luxury{color: #e1a122; padding-left:20px;}
 .textHome{font-family:Arial, Helvetica, sans-serif; font-size:1.0em}
 .textHome2{font-family:Arial, Helvetica, sans-serif; color:white; font-size:1.0em;margin-top:100px;text-align:center}

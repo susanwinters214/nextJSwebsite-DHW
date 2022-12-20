@@ -1,14 +1,42 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
-import Hero from "../components/home-page/hero";
 import Link from "next/link";
+import FeaturedPosts from "../components/home-page/featured-posts";
+import { getFeaturedPosts } from '../lib/posts-util';
+
+const DUMMY_POST = [
+  {
+    slug: "gates",
+    title: "Security Gates",
+    image: "securing-gate.jpg",
+    excerpt: "Tina Closing Gate",
+    date: "12/01/2022",
+  },
+  {
+    slug: "mastering-javascript",
+    title: "Day Two",
+    image: "mastering-js-thumb.png",
+    excerpt: "Mastering JAVASCRIPT",
+    date: "12/08/2022",
+  },
+  {
+    slug: "getting-started-with-nextjs",
+    title: "THE END",
+    image: "getting-started-with-nextjs.png",
+    excerpt: "This is a great way to get started",
+    date: "12/15/2022",
+  },
+];
 
 function HomePage(props) {
   return (
     <Fragment>
       <Head>
         <title>Dallas Home Watch</title>
-        <meta name="description" content="Dallas Home Watch is company that provides professional Home Watch Services for home owners in Dallas. Home Watch professionals perform a visual inspection of your home while you are away and alert you of any concerns about the conditions of the real estate." />
+        <meta
+          name="description"
+          content="Dallas Home Watch is company that provides professional Home Watch Services for home owners in Dallas. Home Watch professionals perform a visual inspection of your home while you are away and alert you of any concerns about the conditions of the real estate."
+        />
 
         {/* <!-- Google Tag Manager --> */}
 
@@ -51,7 +79,7 @@ function HomePage(props) {
                         {/* Services Block HOME WATCH*/}
                         <div className="services-block col-lg-6 col-md-12 col-sm-12">
                           <div className="homepagetopcontent">
-                            <div className="hptitle">
+                            <div className="hptitle" id="Luxury">
                               Luxury Estate Services
                             </div>
                             <h1>
@@ -74,8 +102,6 @@ function HomePage(props) {
                                 </span>
                               </a>
                             </div>
-
-                           
                           </div>
                           <h3 className="textHome2">
                             Home watch inspections provide peace of mind about
@@ -107,7 +133,9 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-file" />
                     <h4>
-                      <Link href="/home-watch-checklist">Home Watch Services</Link>
+                      <Link href="/home-watch-checklist">
+                        Home Watch Services
+                      </Link>
                     </h4>
                     <div className="text">
                       We perform a visual inspection of your home and keep you
@@ -130,7 +158,9 @@ function HomePage(props) {
                   <div className="content">
                     <div className="icon flaticon-file-1" />
                     <h4>
-                      <Link href="/keyholder-services">Key Holder Services</Link>
+                      <Link href="/keyholder-services">
+                        Key Holder Services
+                      </Link>
                     </h4>
                     <div className="text">
                       We can allow vendor and contractor access to your home and
@@ -202,10 +232,10 @@ function HomePage(props) {
               {/* Image Column */}
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
-                  <div className="image titlt" data-tilt="" data-tilt-max={2}>
+                  <div className="image title" data-tilt="" data-tilt-max={2}>
                     <img
                       src="images/garage-door-entry-doorway.jpg"
-                      alt="garage door entry with security"
+                      alt="home watch professional checking garage door entry"
                     />
                   </div>
                   <div
@@ -240,7 +270,10 @@ function HomePage(props) {
                     <li>Automobile &amp; Battery Checks </li>
                   </ul>
                   <div className="btns-box">
-                    <a href="contact.html" className="theme-btn btn-style-two">
+                    <a
+                      href="tel:972-982-7050"
+                      className="theme-btn btn-style-two"
+                    >
                       <span className="txt">
                         Get a quote <i className="arrow flaticon-right" />
                       </span>
@@ -542,11 +575,19 @@ function HomePage(props) {
         </div>
       </section>
 
-      <Hero />
+      {/*  <FeaturedPosts posts={props.posts} />*/}
     </Fragment>
   );
 }
 
+export function getStaticProps() {
+  const featuredPosts = getFeaturedPosts();
 
+  return {
+    props: {
+      posts: featuredPosts
+    }
+  }
+}
 
 export default HomePage;

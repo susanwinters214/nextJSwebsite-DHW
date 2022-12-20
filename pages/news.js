@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 
+
 function NewsPage(props) {
   return (
     <Fragment>
@@ -26,6 +27,7 @@ function NewsPage(props) {
           </ul>
         </div>
       </section>
+     
       <section className="project-style-two">
         <div className="auto-container" style={{ marginTop: "-100px" }}>
           <div className="row clearfix">

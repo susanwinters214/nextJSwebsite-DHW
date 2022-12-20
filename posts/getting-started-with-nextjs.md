@@ -1,14 +1,17 @@
 ---
 title: 'Getting Started with NextJS'
 date: '2022-10-16'
-image: getting-started-nextjs.png
+image: getting-started-with-nextjs.png
 excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR.
 isFeatured: true
 ---
 
-NextJS is a **framework for ReactJS**.
+# My Awesome Title
 
-Wait a second ... a "framework" for React? Isn't React itself already a framework for JavaScript?
+NextJS is a **framework for ReactJS**.
+This is some text with a hyperlink[link](https://www.google.com)
+
+SUSAN WINTERS wrote this ... a "framework" for React? Isn't React itself already a framework for JavaScript?
 
 Well ... first of all, React is a "library" for JavaScript. That seems to be important for some people.
 

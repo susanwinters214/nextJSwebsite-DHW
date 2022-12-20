@@ -9,7 +9,7 @@ function AccreditationPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch Accreditation</title>
-      
+
         <meta
           name="description"
           content="Dallas Home Watch received Accreditation from the National Home Watch Association."
@@ -54,7 +54,9 @@ function AccreditationPage(props) {
                 <div className="inner-column">
                   {/* Sec Title */}
                   <div className="sec-title centered">
-                    <h2 className="pageTitle">About Accreditation</h2>
+                    <h2 className="pageTitle">
+                      Accredited Home Watch Business
+                    </h2>
                     <div className="text">
                       Accredited members of the NHWA must pass a strict vetting
                       process for consumer complaints or issues. They must carry
