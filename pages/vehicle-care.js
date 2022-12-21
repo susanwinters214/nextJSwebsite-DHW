@@ -273,40 +273,33 @@ function VehicleCarePage(props) {
             <div className="inner-box">
               <div className="lower-content">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Feugiat vivamus at augue eget arcu dictum. Mi bibendum neque
-                  egestas congue quisque egestas diam. Auctor augue mauris augue
-                  neque gravida in fermentum. Eleifend mi in nulla posuere
-                  sollicitudin. Fermentum et sollicitudin ac orci. Ridiculus mus
-                  mauris vitae ultricies leo integer malesuada. Vitae turpis
-                  massa sed elementum tempus egestas sed sed risus. Ornare
-                  suspendisse sed nisi lacus sed viverra tellus. Mi ipsum
-                  faucibus vitae aliquet nec ullamcorper sit amet. Cursus mattis
-                  molestie a iaculis. Nulla pellentesque dignissim enim sit amet
-                  venenatis urna cursus. Vitae semper quis lectus nulla at
-                  volutpat diam ut venenatis. Duis tristique sollicitudin nibh
-                  sit amet commodo. In vitae turpis massa sed elementum tempus
-                  egestas sed. Tellus in metus vulputate eu scelerisque felis
-                  imperdiet. Commodo ullamcorper a lacus vestibulum sed. Quis
-                  enim lobortis scelerisque fermentum.
+                  Unless you are taking all your vehicles on a road trip,
+                  overseas vacation or to the coast for the summer, you are
+                  probably leaving one or more cars in the garage. Left for
+                  weeks or months, tires, batteries, and finishes (especially if
+                  not in a garage) will deteriorate. Your expensive investments
+                  deserve attention.
                 </p>
 
                 <p>
-                  Cursus sit amet dictum sit amet. Egestas diam in arcu cursus
-                  euismod quis viverra nibh cras. Donec ultrices tincidunt arcu
-                  non sodales neque sodales ut. Sed euismod nisi porta lorem
-                  mollis. Blandit libero volutpat sed cras ornare arcu. A lacus
-                  vestibulum sed arcu. Ut venenatis tellus in metus. Egestas
-                  tellus rutrum tellus pellentesque eu tincidunt tortor. Orci eu
-                  lobortis elementum nibh tellus molestie nunc non. Gravida
-                  rutrum quisque non tellus orci ac auctor. Iaculis at erat
-                  pellentesque adipiscing commodo elit at imperdiet. Ipsum
-                  faucibus vitae aliquet nec ullamcorper sit amet. Quis eleifend
-                  quam adipiscing vitae. Sit amet luctus venenatis lectus magna
-                  fringilla urna porttitor rhoncus. Nec feugiat nisl pretium
-                  fusce id velit. Faucibus et molestie ac feugiat sed lectus
-                  vestibulum. Gravida dictum fusce ut placerat orci.
+                  Dallas Home Watch will provide routine maintenance for your
+                  cars while you are away. We will drive them as often as you
+                  specify, watching for any indication that maintenance or
+                  repairs are needed.
+                </p>
+                <p>
+                  We will take cars to your preferred service department to have
+                  oil changes; tire rotations, alignments, or changes; washes
+                  and detailing; fueling; battery checks; yearly inspections,
+                  and electric car charging.{" "}
+                </p>
+                <p>
+                  If a serious problem arises, we will alert you immediately and
+                  follow your instructions on any service needed.{" "}
+                </p>
+                <p>
+                  When you return home, your car will be at its best and ready
+                  to go.{" "}
                 </p>
               </div>
             </div>

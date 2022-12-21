@@ -101,7 +101,7 @@ function HomeWatchChecklistPage(props) {
                 <p>
                   Dallas Home Watch provides a standard checklist of items that
                   need to be checked in your home while you are away. You are
-                  able to customize your HomeWatch checklist to include items
+                  able to customize your Home Watch checklist to include items
                   you may have in your home that are different than the average
                   home owner. Our Home Watch Professionals will document all
                   issues and provide you with a report so that you can make any
@@ -119,45 +119,111 @@ function HomeWatchChecklistPage(props) {
                   to avoid signs of an empty home.
                 </p>
                 <p>
-                  Below is a demonstration of some of the many items we check
-                  while in your home including: Home Security Alarms, Water
-                  Leaks, Electrical Closets, Routers, Air Filters, A/C Units,
-                  Breaker Boxes, Washing Machines - CHECK: Thermostats,
-                  Refrigerators & Freezers (avoiding spoiled food), Ice Makers
-                  and Garbage Disposals, Flush Toilets, Run Water from Faucets,
-                  Check Windows, Ceilings, Water Heaters, Water Softner, Water
-                  Filters for leaks and verify salt level, Operate garage door
-                  opener to check drive chain mechanism, Irrigation Controller
-                  is functioning (inside garage only), Investitage any noises,
-                  alarms, beeps or odors. Turn on lights and fans throughout the
-                  house, Check elevator, Wine Cellar (Cleared wine cellar drain
-                  line plus replaced the batteries in the temp alert. Holding at
-                  55), Bulbs on timer lights are checked to make sure they are
-                  not burnt out.
+                  Our comprehensive menu of services takes the worry out of home
+                  ownership whether you are away on business, vacationing,
+                  relocating or simply in possession of a property that is not
+                  your residence. Depending on the length of time you will be
+                  away or the size of the property, you may pick and choose
+                  which services are right for you, knowing that your property
+                  will be attended to with the highest level of professionalism
+                  and attention to detail.
                 </p>
+
+                <h3>Inside Your Home</h3>
                 <p>
-                  More items include: Check property for erosion or drainage
-                  problems, check for damage caused by fallen trees or limbs,
-                  verify landscaping has been performed, bring up the trashcans
-                  from the street or alley. We check the property to ensure all
-                  yard access is secure. We check outdoor faucets for leakage or
-                  covered in cold weather. If you have a swimming pool or
-                  outdoor fountain, we will check for algae growth or debris and
-                  check the pool equipment for leaks. We will let you know if
-                  the pump was running during our visit.
+                  An extended leave may mean that the homeowner has disabled
+                  certain aspects of the property like water or Internet. Our
+                  indoor inspection will cover those items that should be
+                  functional including working interior lights, functioning
+                  alarm system, security of windows and doors, access by animals
+                  or birds; functioning of appliances, air conditioning and
+                  heating, no water leaks in bathrooms or kitchens; no leaks in
+                  ceilings or windows; no alarms, beeping or other noises;
+                  toilets flushing; no unusual odors; technical systems online;
+                  and garage door operational. Any problems with these or other
+                  interior areas will be reported to the homeowner and handled
+                  according to their instructions.
                 </p>
+                <div className="row clearfix">
+                  <div className="column col-lg-6 col-md-6 col-sm-6">
+                    <ul className="list-style-one">
+                      <li>Home Security Alarms </li>
+                      <li>Water Leaks</li>
+                      <li>Electrical Closets</li>
+                      <li>Routers </li>
+                      <li>Air Filters </li>
+                      <li>A/C Units </li>
+                      <li>Thermostats </li>
+                      <li>Refrigerators </li>
+                      <li>Washing Machines </li>
+                      <li>Freezers </li>
+                      <li>Ice Makers </li>
+                      <li>Garbage Disposals </li>
+                    </ul>
+                  </div>
+
+                  <div className="column col-lg-6 col-md-6 col-sm-6">
+                    <ul className="list-style-one">
+                      <li>Flush Toilets </li>
+                      <li>Check Windows </li> <li> </li>
+                      <li>Run Water from Faucets </li>
+                      <li>Ceilings </li>
+                      <li>Water Heaters </li>
+                      <li>Water Softner System </li>
+                      <li>Water Filters for leaks and verify salt level </li>
+                      <li>Turn on lights and fans throughout the house</li>
+                      <li>Investitage any noises, alarms, beeps or odors. </li>
+                      <li>Check elevators,</li>
+                      <li>Wine Cellar</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <h3>Outside Your Home</h3>
                 <p>
-                  Dallas Home Watch Professionals will check your home for
-                  visual pest infestations and remove any dead insects found.
-                  Occassionally we are asked to scare away any ducks or remove
-                  turtles. If we encounter any dangerous wildlife, we will
-                  immediately alert you to the issue so that the city's animal
-                  control center can come and professionally and safely remove
-                  it.
+                  The outside inspection of your home may include removal of
+                  mail, boxes, and packages; damage to front doorway and
+                  entrances; maintenance of landscapes and pools; functioning of
+                  pool and other equipment; pre- and post-freeze preparation;
+                  security of windows and other points of entry; functioning of
+                  exterior lighting; and access by animals or birds. Any
+                  problems with these or other exterior areas will be reported
+                  to the homeowner and handled according to their instructions.
                 </p>
+
+                <div className="row clearfix">
+                  <div className="column col-lg-6 col-md-6 col-sm-6">
+                    <ul className="list-style-one">
+                      <li>Breaker Boxes </li>
+                      <li>Swimming pool or outdoor fountain </li>
+                      <li>
+                        Outdoor faucets for leakage or covered in cold weather
+                      </li>
+                      <li>Check for damage caused by fallen trees or limbs </li>
+                      <li>verify landscaping has been performed </li>
+                    </ul>
+                  </div>
+
+                  <div className="column col-lg-6 col-md-6 col-sm-6">
+                    <ul className="list-style-one">
+                      <li>
+                        Operate garage door opener to check drive chain
+                        mechanism
+                      </li>
+                      <li>
+                        Irrigation Controller is functioning - inside garage
+                        only
+                      </li>
+                      <li>Check property for erosion or drainage problems, </li>
+                      <li>Bring up the trashcans from the street or alley. </li>
+                      <li>Ensure all yard access is secure </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
           {/* Services Block 1 - Security Alarms */}
           <div className="services-block-three">
             <div
@@ -510,7 +576,6 @@ function HomeWatchChecklistPage(props) {
               </div>
             </div>
           </div>
-
           {/* Services Block 11 - Toilets & Tubs */}
           <div className="services-block-three">
             <div
@@ -524,7 +589,8 @@ function HomeWatchChecklistPage(props) {
                   <div className="inner-column">
                     <h3 className="boxTitle">Toilets & Tubs</h3>
                     <div className="text">
-                      We flush all of the toilets to make sure they are working. We turn the water on and off in the tubs. 
+                      We flush all of the toilets to make sure they are working.
+                      We turn the water on and off in the tubs.
                     </div>
                   </div>
                 </div>
@@ -570,14 +636,16 @@ function HomeWatchChecklistPage(props) {
                   <div className="inner-column">
                     <h3 className="boxTitle">Pools & Fountains</h3>
                     <div className="text">
-                      We check the pool and fountains around the house and make a note if the pumps were running while we were there.
+                      We check the pool and fountains around the house and make
+                      a note if the pumps were running while we were there. We
+                      check for algae growth or debris in and around the pool or
+                      fountain.
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           {/* Services Block 13 - WaterCop */}
           <div className="services-block-three">
             <div
@@ -649,7 +717,6 @@ function HomeWatchChecklistPage(props) {
               </div>
             </div>
           </div>
-
           {/* Services Block 15 - Back Door */}
           <div className="services-block-three">
             <div
@@ -718,9 +785,7 @@ function HomeWatchChecklistPage(props) {
               </div>
             </div>
           </div>
-
           {/* Services Block 17 - Garage Doors & Openers */}
-
           <div className="services-block-three">
             <div
               className="inner-box wow fadeInUp"
@@ -753,11 +818,19 @@ function HomeWatchChecklistPage(props) {
               </div>
             </div>
           </div>
-
           {/* Block Detail */}
           <div className="blog-detail">
             <div className="inner-box">
               <div className="lower-content">
+                <p>
+                  Dallas Home Watch Professionals will check your home for
+                  visual pest infestations and remove any dead insects found.
+                  Occassionally we are asked to scare away any ducks or remove
+                  turtles. If we encounter any dangerous wildlife, we will
+                  immediately alert you to the issue so that the city's animal
+                  control center can come and professionally and safely remove
+                  it.
+                </p>
                 Dallas Home Watch will provide you with a Home Watch Checklist
                 that you can customize by adding additional items that are
                 specific to your home.
@@ -766,9 +839,6 @@ function HomeWatchChecklistPage(props) {
           </div>
         </div>
       </section>
-
-      {/* insert section component with content2*/}
-      {/* insert section component with content3*/}
     </Fragment>
   );
 }

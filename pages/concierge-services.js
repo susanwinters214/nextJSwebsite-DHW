@@ -39,7 +39,7 @@ function ConciergePage(props) {
               />
             </div>
             <div className="lower-content">
-              <h2>concierge Services for Home Watch Clients</h2>
+              <h2>Concierge Services for Home Watch Clients</h2>
               <p>
                 Dallas Home Watch offers personal concierge services while you
                 are away so that you can come home and rest assured that your
@@ -81,44 +81,46 @@ function ConciergePage(props) {
       <section className="services-page-section">
         <div className="auto-container">
           <div className="blog-detail">
-            <h2 className="blue">What is Conceirge Services?</h2>
-            <Link href="https://www.excellentwebworld.com/what-is-concierge-service/">
-              VIEW FOR REFERENCE
-            </Link>
+         
 
             <div className="inner-box">
               <div clasNames="lower-content">
                 <div className="row clearfix">
                   <div className="column col-lg-6 col-md-6 col-sm-6">
+                    <h2 className="blue">What is Conceirge Services?</h2>
                     <p>
-                      Personal concierge are hired to provide a wide range of
-                      services for busy people. incididunt ut labore et dolore
-                      magna aliqua. Feugiat vivamus at augue eget arcu dictum.
-                      Mi bibendum neque egestas congue quisque egestas diam.
-                      Auctor augue mauris augue neque gravida in fermentum.
-                      Eleifend mi in nulla posuere sollicitudin. Fermentum et
-                      sollicitudin ac orci. Ridiculus mus mauris vitae ultricies
-                      leo integer malesuada. Vitae turpis massa sed elementum
-                      tempus egestas sed sed risus. Ornare suspendisse sed nisi
-                      lacus sed viverra tellus. Mi ipsum faucibus vitae aliquet
-                      nec ullamcorper sit amet. Cursus mattis molestie a
-                      iaculis. Nulla pellentesque dignissim enim sit amet
-                      venenatis urna cursus. Vitae semper quis lectus nulla at
-                      volutpat diam ut venenatis. Duis tristique sollicitudin
-                      nibh sit amet commodo. In vitae turpis massa sed elementum
-                      tempus egestas sed. Tellus in metus vulputate eu
-                      scelerisque felis imperdiet. Commodo ullamcorper a lacus
-                      vestibulum sed. Quis enim lobortis scelerisque
-                      fermentum.Vitae turpis massa sed elementum tempus egestas
-                      sed sed risus. Ornare suspendisse sed nisi lacus sed
-                      viverra tellus. Mi ipsum faucibus vitae aliquet nec
-                      ullamcorper sit amet. Cursus mattis molestie a iaculis.
-                      Nulla pellentesque dignissim enim sit amet venenatis urna
-                      cursus. Vitae semper quis lectus nulla at volutpat diam ut
-                      venenatis.Ornare suspendisse sed nisi lacus sed viverra
-                      tellus. Mi ipsum faucibus vitae aliquet nec ullamcorper
-                      sit amet. Cursus mattis molestie a iaculis. Nulla
-                      pellentesque.
+                      Think of Dallas Home Watch as your personal assistant
+                      while you are away.
+                    </p>
+                    <p>
+                      It is our goal to keep your home running smoothly while
+                      you are gone, so those pesky chores and to-dos that still
+                      need to get done will be ours to do for you.{" "}
+                    </p>
+                    <p>
+                      This may include personal errands like picking up dry
+                      cleaning, purchasing and wrapping a gift, returning an
+                      item to a store, or shipping a box via UPS.{" "}
+                    </p>
+                    <p>
+                      Household chores can include seeing that the yard and
+                      entry are drive-up ready or that the inside is
+                      spic-and-span.{" "}
+                    </p>
+                    <p>
+                      To get ready for your return, we can set the temperature,
+                      stock the fridge with drinks, order fresh flowers, or have
+                      a meal catered.{" "}
+                    </p>
+                    <p>
+                      And when others are in your home while you are gone, we
+                      will open and close the home for them and perform visual
+                      inspections.{" "}
+                    </p>
+                    <p>
+                      If you don’t see the service you need, please contact us
+                      as this is only some of the services we can offer our
+                      homeowners.{" "}
                     </p>
                   </div>
                   <div className="column col-lg-6 col-md-6 col-sm-6">
@@ -133,26 +135,7 @@ function ConciergePage(props) {
                   </div>
                 </div>
 
-                <p>
-                  Erat imperdiet sed euismod nisi porta lorem mollis. Elementum
-                  curabitur vitae nunc sed. Quisque id diam vel quam elementum
-                  pulvinar etiam non quam. Elementum integer enim neque volutpat
-                  ac tincidunt vitae semper quis. Orci ac auctor augue mauris.
-                  Risus viverra adipiscing at in tellus integer feugiat
-                  scelerisque. Rhoncus urna neque viverra justo nec ultrices
-                  dui. Sagittis vitae et leo duis ut diam quam. Odio euismod
-                  lacinia at quis risus sed vulputate odio ut. In hac habitasse
-                  platea dictumst quisque. Hac habitasse platea dictumst quisque
-                  sagittis purus sit amet volutpat. At erat pellentesque
-                  adipiscing commodo. Tortor dignissim convallis aenean et
-                  tortor. Elementum eu facilisis sed odio morbi. Vestibulum
-                  rhoncus est pellentesque elit ullamcorper dignissim cras. Orci
-                  a scelerisque purus semper eget duis at. Etiam dignissim diam
-                  quis enim lobortis scelerisque. Venenatis cras sed felis eget
-                  velit. Quam quisque id diam vel quam elementum pulvinar etiam.
-                  Congue quisque egestas diam in arcu cursus.{" "}
-                </p>
-                
+               
               </div>
             </div>
           </div>

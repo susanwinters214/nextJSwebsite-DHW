@@ -138,64 +138,61 @@ function KeyHolderPage(props) {
             style={{ marginTop: "-75px", marginBottom: 100 }}
           >
             <h2>Why Would I Need A Key Holder Service?</h2>
-            <a href="https://www.ace-security.net/blog/the-role-of-a-keyholder-in-security-services/">
-              VIEW FOR REFERENCE
-            </a>
+           
             <div className="inner-box">
               <div className="lower-content">
+                <h3>Meeting Vendors & Contract Workers</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Feugiat vivamus at augue eget arcu dictum. Mi bibendum neque
-                  egestas congue quisque egestas diam. Auctor augue mauris augue
-                  neque gravida in fermentum. Eleifend mi in nulla posuere
-                  sollicitudin. Fermentum et sollicitudin ac orci. Ridiculus mus
-                  mauris vitae ultricies leo integer malesuada. Vitae turpis
-                  massa sed elementum tempus egestas sed sed risus. Ornare
-                  suspendisse sed nisi lacus sed viverra tellus. Mi ipsum
-                  faucibus vitae aliquet nec ullamcorper sit amet. Cursus mattis
-                  molestie a iaculis. Nulla pellentesque dignissim enim sit amet
-                  venenatis urna cursus. Vitae semper quis lectus nulla at
-                  volutpat diam ut venenatis. Duis tristique sollicitudin nibh
-                  sit amet commodo. In vitae turpis massa sed elementum tempus
-                  egestas sed. Tellus in metus vulputate eu scelerisque felis
-                  imperdiet. Commodo ullamcorper a lacus vestibulum sed. Quis
-                  enim lobortis scelerisque fermentum.{" "}
+                  Your time is incredibly valuable and finding time to meet
+                  vendors at your home is nearly impossible. That’s where you
+                  can rely on Dallas Home Watch Key Holder Service. We can be
+                  there to meet deliveries, trades people or repairmen, allowing
+                  you to keep your day, and productivity, intact.
                 </p>
                 <p>
-                  Erat imperdiet sed euismod nisi porta lorem mollis. Elementum
-                  curabitur vitae nunc sed. Quisque id diam vel quam elementum
-                  pulvinar etiam non quam. Elementum integer enim neque volutpat
-                  ac tincidunt vitae semper quis. Orci ac auctor augue mauris.
-                  Risus viverra adipiscing at in tellus integer feugiat
-                  scelerisque. Rhoncus urna neque viverra justo nec ultrices
-                  dui. Sagittis vitae et leo duis ut diam quam. Odio euismod
-                  lacinia at quis risus sed vulputate odio ut. In hac habitasse
-                  platea dictumst quisque. Hac habitasse platea dictumst quisque
-                  sagittis purus sit amet volutpat. At erat pellentesque
-                  adipiscing commodo. Tortor dignissim convallis aenean et
-                  tortor. Elementum eu facilisis sed odio morbi. Vestibulum
-                  rhoncus est pellentesque elit ullamcorper dignissim cras. Orci
-                  a scelerisque purus semper eget duis at. Etiam dignissim diam
-                  quis enim lobortis scelerisque. Venenatis cras sed felis eget
-                  velit. Quam quisque id diam vel quam elementum pulvinar etiam.
-                  Congue quisque egestas diam in arcu cursus.{" "}
+                  You don’t want deliveries, like wine, gifts or furniture, left
+                  outside to be damaged by weather or become a target for
+                  thieves. We will bring them safely indoors. If deliveries need
+                  to be brought in and unpacked, assembled or put in a specific
+                  place, we are there to greet them and supervise the process.
                 </p>
                 <p>
-                  Cursus sit amet dictum sit amet. Egestas diam in arcu cursus
-                  euismod quis viverra nibh cras. Donec ultrices tincidunt arcu
-                  non sodales neque sodales ut. Sed euismod nisi porta lorem
-                  mollis. Blandit libero volutpat sed cras ornare arcu. A lacus
-                  vestibulum sed arcu. Ut venenatis tellus in metus. Egestas
-                  tellus rutrum tellus pellentesque eu tincidunt tortor. Orci eu
-                  lobortis elementum nibh tellus molestie nunc non. Gravida
-                  rutrum quisque non tellus orci ac auctor. Iaculis at erat
-                  pellentesque adipiscing commodo elit at imperdiet. Ipsum
-                  faucibus vitae aliquet nec ullamcorper sit amet. Quis eleifend
-                  quam adipiscing vitae. Sit amet luctus venenatis lectus magna
-                  fringilla urna porttitor rhoncus. Nec feugiat nisl pretium
-                  fusce id velit. Faucibus et molestie ac feugiat sed lectus
-                  vestibulum. Gravida dictum fusce ut placerat orci.
+                  When repairs need to be made, you don’t need to wait the
+                  four-hour window. We will assure that we are there to meet
+                  repairmen and supervise the work through completion.
+                </p>
+                <p>
+                  That goes for services like landscaping, pool maintenance and
+                  housekeeping, too. We will be there when they are, acting on
+                  your behalf.
+                </p>
+                <p>
+                  And when the work is done, we will see that your property is
+                  secure.{" "}
+                </p>
+
+                <h3>Emergency Services</h3>
+                <p>
+                  Emergencies can happen when you are away from your home for an
+                  extended period of time or even when you are at an office
+                  downtown. You need someone you trust, who’s bonded and
+                  insured, to respond in a timely fashion. Dallas Home Watch is
+                  that service. With over 20-years-experience in the North Texas
+                  area, we know how to handle virtually any situation with calm
+                  professionalism.{" "}
+                </p>
+                <p>
+                  Although we are not an alarm company, we can be a first
+                  responder when you are away, working with the alarm company,
+                  police and fire departments, or other emergency entities on
+                  your behalf. We will contact you immediately and stay in
+                  contact with you until the situation is resolved, whether you
+                  are across town or across the globe.{" "}
+                </p>
+                <p>
+                  If necessary, we can handle the aftermath of property
+                  invasions or fire, dealing with repairs and cleanup so you
+                  return home worry-free.{" "}
                 </p>
               </div>
             </div>

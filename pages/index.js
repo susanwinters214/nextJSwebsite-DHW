@@ -349,39 +349,42 @@ function HomePage(props) {
                   <div className="lower-content">
                     <h2>Why Hire a Home Watch Service?</h2>
                     <p>
-                      The typical consumer assumes that Home Watch is either a
-                      security service or a house-sitting service when it is
-                      mentioned. Home Watch is not an alarm company nor a house
-                      sitting service. Instead, Home Watch professionals come
-                      into your home while you are away and perform a visual
-                      inspection of your home looking for issues that may
-                      warrant a call to the home owner informing them of
-                      problems like leaky faucets, clogged drains, air
-                      conditioning and/or heating problems, pool and fountain
-                      pump problems and more. The larger the home the more
-                      things that could go wrong and if left unattended, small
-                      problems can quickly lead to larger problems that can get
-                      very expensive to repair.
+                      The typical consumer assumes that a Home Watch service is
+                      either a security service or a house-sitting service.
+                      Dallas Home Watch is neither of these. Instead, Dallas
+                      Home Watch professionals come into your home while you are
+                      away and perform a visual inspection of your home, looking
+                      for issues that may warrant a call to the homeowner
+                      informing them of problems. These might include a leaky
+                      faucet, clogged drain, air conditioning or heating issue,
+                      pool or fountain pump problem and more. The larger the
+                      home, the more that can go wrong and, if left unattended,
+                      small problems can quickly lead to larger, more costly
+                      ones.
                     </p>
                     <p>
-                      The longer a house sits vacant the bigger the potential is
-                      that unauthorized persons may attempt to trespass and
-                      possibly intrude your home and possessions. Home Watch
-                      includes bringing in the mail and picking up boxes and
-                      newspapers or flyers from the front porch to assist in the
-                      home not appearing vacant.
+                      The longer a house sits vacant, the bigger the potential
+                      for unauthorized persons to trespass or intrude on your
+                      property. Dallas Home Watch services include bringing in
+                      the mail, boxes or newspapers from the front porch to help
+                      keep from signaling that the homeowners are gone.
                     </p>
                     <p>
-                      Dallas Home Watch serves the C-suite level homes and
-                      informs the homeowner of any problems found and adheres to
-                      their directions for their resolution and treatment.
-                      Because our clients often travel either out of state or
-                      out of the country for long periods of time, they can rest
+                      Dallas Home Watch serves the owners of C-suite level homes
+                      and informs homeowners of any problems found, then adheres
+                      to their directions for resolution and treatment of any
+                      issues. Because our clients often travel out of state or
+                      out of country for long periods of time, they can rest
                       assured that Dallas Home Watch will visit their property
-                      on a consistant schedule and be their eyes and ears while
-                      they are away. If you leave your home vacant for more than
-                      7 days, we recommend using a Home Watch service business.
+                      on a regular schedule and be their eyes and ears while
+                      they are away.
                     </p>
+                    <p>
+                      If you plan to leave your home vacant for more that 7
+                      days, call us to schedule the Dallas Home Watch services
+                      that suit your needs.
+                    </p>
+
                     <blockquote>
                       <span className="quote-icon flaticon-quote-1" />
                       <div className="quote-text">
@@ -390,16 +393,23 @@ function HomePage(props) {
                       <div className="quote-author">By Tina Lawson</div>
                     </blockquote>
                     <p>
-                      We enter all properties with a{" "}
-                      <a href="home-watch-checklist.html">
+                      Direct communication with our clients is paramount to
+                      keeping homeowners informed about the status of their home
+                      and property.
+                    </p>
+                    <p>
+                      We enter all properties with a&nbsp;
+                      <Link href="homewatch-checklist">
                         Home Watch Checklist
-                      </a>{" "}
-                      that is customized by the owner. We take photos and/or
-                      videos of identified problems or potential problems and
-                      send them via text or email depending on the client's
-                      preference of communication. We ensure the homeowner is
-                      aware of any issues and follow the client’s instructions
-                      regarding a resolution.
+                      </Link>
+                      &nbsp; that includes a list of services to be performed
+                      based on the length of vacancy and the property involved
+                      and customized by the owner. We take photos and/or videos
+                      of identified problems or potential problems and send them
+                      via text or email depending on the client's preference of
+                      communication. We ensure the homeowner is aware of any
+                      issues and follow the client’s instructions regarding a
+                      resolution.
                     </p>
                     <div className="two-column">
                       <div className="row clearfix">
@@ -415,32 +425,24 @@ function HomePage(props) {
                         {/* Column */}
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                           <p>
-                            It is a long established fact that a reader
-                            established fact that a reader will bewill be
-                            distracted by the readable content of a page when
-                            looking at its layout. The point of using Lorem
-                            Ipsum is that it has a more-or-less normal
-                            distribution of letters, as opposed to using
-                            'Content here, content here', making it look like
-                            readable English.
+                            We enter your property according to the schedule
+                            agreed upon and perform all agreed upon tasks. In
+                            addition, we perform a visual inspection of the
+                            property, either inside, outside or both. We take
+                            photos and/or videos of potential problems and send
+                            them to the homeowner via text or email, depending
+                            on the client’s preference.
                           </p>
                           <p>
-                            Many desktop publishing packages established
-                            established fact that a reader will befact that a
-                            reader will beand web page editors now use Lorem
-                            Ipsum as their default model text, and a search for
-                            'lorem ipsum' will uncover many web sites still in
-                            their infancy. Various versions have evolved over
-                            the years, sometimes by accident.
+                            After discussions with the homeowner, we will manage
+                            the resolution of the problem according to their
+                            instructions, whether it involves arranging,
+                            meeting, and supervising tradespeople or some other
+                            way of handling the problem satisfactorily.
                           </p>
                           <p>
-                            It is a long established fact that a fact that a
-                            reader will bethe readable content of a page when
-                            looking at its layout. The point of using Lorem
-                            Ipsum is that it has a more-or-less normal
-                            distribution of letters, as opposed to using
-                            'Content here, content here', making it look like
-                            readable English.
+                            The homeowner will be keep apprised of the situation
+                            throughout via regular updates.
                           </p>
                         </div>
                       </div>
