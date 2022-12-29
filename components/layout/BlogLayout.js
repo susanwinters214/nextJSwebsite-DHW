@@ -6,7 +6,7 @@ function BlogLayout(props) {
   return (
     <Fragment>
       <MainNavigation />
-      <h1>THIS IS NEW</h1>
+
       <main>{props.children}</main>
       <FooterNavigation />
     </Fragment>

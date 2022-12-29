@@ -34,7 +34,7 @@ a.phoneNumberLink:hover{
 .pageback-con{background-image:url(/images/concierge-services/pickup-dry-cleaning.jpg)}
 .pageback-contact{background-image:url(/images/background/gated-community.jpg)}
 .pageback-hwchk{background-image:url(/images/background/homewatch-garage-services.jpg)}
-.pageback-keyh{background-image:url(/images/key-holder/vendor-with-keys-shaking-hands.jpg)}
+.pageback-keyh{background-image:url(/images/background/shaking-hands.jpg)}
 .pageback-news{background-image:url(/images/background/home-watch-news.jpg)}
 .pageback-privacy{background-image:url(/images/background/home-watch-news.jpg)}
 .pageback-terms{background-image:url(/images/background/home-watch-news.jpg)}
@@ -133,3 +133,25 @@ p.about{padding:20px;margin-left:10%;margin-right:10%}
 #Luxury{color: #e1a122; padding-left:20px;}
 .textHome{font-family:Arial, Helvetica, sans-serif; font-size:1.0em}
 .textHome2{font-family:Arial, Helvetica, sans-serif; color:white; font-size:1.0em;margin-top:100px;text-align:center}
+
+.allBlogs {width: 110px;margin-left:10px;margin-top:20px;background-color:#00204c}
+.allBlogs a {color:white; margin-left:10px;}
+
+@media (max-width: 995px) {
+.blog-title{
+	position:relative;
+	padding:00px 0px 60px;
+	background-size:cover;
+	text-align:center;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
+}
+}
+
+.bigblogtitle{padding-top: 50px;color:white}
+
+.blogArticle h2{padding-top: 25px; padding-bottom:15px;}
+.blogArticle  ol li {list-style-type: disc; font-size:.85em; margin-left:5%}
+.blogArticle  ul li {list-style-type: disc; font-size:.85em; margin-left:5%}
+.blogArticle p{padding-top:15px}

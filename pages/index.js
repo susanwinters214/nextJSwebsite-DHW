@@ -38,9 +38,6 @@ function HomePage(props) {
           content="Dallas Home Watch is company that provides professional Home Watch Services for home owners in Dallas. Home Watch professionals perform a visual inspection of your home while you are away and alert you of any concerns about the conditions of the real estate."
         />
 
-        {/* <!-- Google Tag Manager --> */}
-
-        {/* <!-- End Google Tag Manager -->*/}
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="banner-section">

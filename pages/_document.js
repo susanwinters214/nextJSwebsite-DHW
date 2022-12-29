@@ -4,12 +4,17 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+
+        </Head>
+
         <body className="hidden-bar-wrapper">
           <Main />
-         
+
           <NextScript />
           <div id="notifications"></div>
+
+       
         </body>
       </Html>
     );

@@ -15,7 +15,8 @@ function PostPage(props) {
 
       <section className="blog-title">
         <div className="auto-container">
-          <h1>HomeWatch Blog Articles</h1>
+          <br /><br />
+          <h1>Home Watch Blog Articles</h1>
         </div>
       </section>
 

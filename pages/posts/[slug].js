@@ -1,63 +1,30 @@
-import { Fragment } from "react";
 import Head from "next/head";
-import Link from "next/link";
+import { Fragment } from "react";
+import PostContent from "../../components/posts/post-detail/post-content";
+import { getPostData, getPostsFiles } from "../../lib/posts-util";
 import Image from "next/image";
-import PostContent from "../../components/posts/post-detail/post-content.js";
-import { getPostData, getPostsFiles } from "../../lib/posts-util.js";
-import Layout from "../../components/layout/bloglayout";
+import Link from "next/link";
 
-function BlogDetailPage(props) {
+function PostDetailPage(props) {
   return (
     <Fragment>
       <Head>
-        <title></title>
+        <title>{props.post.title}</title>
+        <meta name="description" content={props.post.excerpt} />
       </Head>
       <section className="blog-title">
-        <div className="auto-container">
-          <h1>{"{Future Blog Title}"}</h1>
-          <ul className="page-breadcrumb">
-            <li>
-              <a href="/blog">Blog</a>
-            </li>
-          </ul>
-        </div>
+        <div className="auto-container"></div>
       </section>
-      <h1>POSTSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</h1>
-      <PostContent post={props.post }  />;
-      <Layout>
-        <script src="js/jquery.js" strategy="afterInteractive"></script>
-        <script src="/js/popper.min.js" strategy="afterInteractive"></script>
-        <script
-          src="./js/bootstrap.min.js"
-          strategy="afterInteractive"
-        ></script>
-        <script
-          src="../js/jquery.mCustomScrollbar.concat.min.js"
-          strategy=""
-        ></script>
-        <script
-          src="/js/jquery.fancybox.js"
-          strategy="afterInteractive"
-        ></script>
-        <script src="/js/appear.js" strategy="afterInteractive"></script>
-        <script src="/js/parallax.min.js" strategy="afterInteractive"></script>
-        <script
-          src="/js/tilt.jquery.min.js"
-          strategy="afterInteractive"
-        ></script>
-        <script
-          src="/js/jquery.paroller.min.js"
-          strategy="afterInteractive"
-        ></script>
-        <script src="../js/owl.js" strategy="afterInteractive"></script>
-        <script src="/js/wow.js" strategy="afterInteractive"></script>
-        <script src="/js/nav-tool.js" strategy="afterInteractive"></script>
-        <script src="/js/jquery-ui.js" strategy="afterInteractive"></script>
-        <script src="/js/script.js" strategy="afterInteractive"></script>
-      </Layout>
+
+      <aside className="allBlogs">
+        <a href="/posts">Blog Articles</a>
+      </aside>
+
+      <section className="blogArticle">
+        <PostContent post={props.post} />
+      </section>
     </Fragment>
   );
-
 }
 
 export function getStaticProps(context) {
@@ -65,18 +32,24 @@ export function getStaticProps(context) {
   const { slug } = params;
 
   const postData = getPostData(slug);
+
   return {
-    posts: postData
-  }
+    props: {
+      post: postData,
+    },
+    revalidate: 600,
+  };
 }
 
-export function getStaticPaths() { 
+export function getStaticPaths() {
   const postFilenames = getPostsFiles();
-  const slugs = postFilenames.map(fileName => fileName.replace(/\.md$/, ''));
+
+  const slugs = postFilenames.map((fileName) => fileName.replace(/\.md$/, ""));
+
   return {
-    paths: slugs.map(slug => ({ params: {slug:slug}  }) ),
-    fallback: false
-  }
+    paths: slugs.map((slug) => ({ params: { slug: slug } })),
+    fallback: false,
+  };
 }
 
-export default BlogDetailPage;
+export default PostDetailPage;
