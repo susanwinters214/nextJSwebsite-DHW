@@ -10,10 +10,7 @@ function NewsPage(props) {
       <Head>
         <title>Dallas Home Watch News</title>
         <meta name="googlebot" content="noindex"></meta>
-        <meta
-          name="description"
-          content="Dallas Home Watch News - from social media sites, press releases and more"
-        />
+        <meta  name="description"  content="Dallas Home Watch News - News from social media sites, press releases and more."  />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="page-title pageback-news style-two ">

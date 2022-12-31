@@ -7,7 +7,7 @@ function TermsPage() {
     <Fragment>
       <Head>
         <title>Terms of Service</title>
-        <meta name="description" content="Our Privacy Policy" />
+        <meta name="description" content="Dallas Home Watch Terms of Service" />
       </Head>
 
       {/* insert top banner with Page Title & Breadcrumb*/}

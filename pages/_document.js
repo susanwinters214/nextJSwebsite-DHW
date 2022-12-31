@@ -5,16 +5,12 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-
         </Head>
 
         <body className="hidden-bar-wrapper">
           <Main />
-
           <NextScript />
           <div id="notifications"></div>
-
-       
         </body>
       </Html>
     );

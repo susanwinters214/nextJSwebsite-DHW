@@ -11,7 +11,8 @@ function KeyHolderPage(props) {
         <title>Key Holder Services | Dallas Home Watch </title>
         <meta
           name="description"
-          content="Dallas Home Watch offers Key Holder Services for existing Home Watch clients. A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service. The Key Holder will supervise the contractor and confirm with the home owner that the work is done, then lock up the house and leave."
+          content="Dallas Home Watch offers Key Holder Services for existing Home Watch clients. A Key Holder is a professional Home Watch professional that holds the keys to your home to allow access to contractors and vendors to come into the home to perform a service. 
+          The Key Holder will supervise the contractor and confirm with the home owner that the work is done, then lock up the house and leave."
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -57,7 +58,7 @@ function KeyHolderPage(props) {
                 out? Dallas Home Watch can help you and your family get access
                 back into your home when you have lost your keys. Don't risk the
                 security of your home by leaving keys under a doormat or under a
-                flower pot. Instead leave your keys with a licensed and bonded
+                flowerpot. Instead leave your keys with a licensed and bonded
                 company that you can trust.
               </p>
               <p>
@@ -137,8 +138,8 @@ function KeyHolderPage(props) {
             className="blog-detail"
             style={{ marginTop: "-75px", marginBottom: 100 }}
           >
-            <h2>Why Would I Need A Key Holder Service?</h2>
-           
+            <h2>Why Would I Need a Key Holder Service?</h2>
+
             <div className="inner-box">
               <div className="lower-content">
                 <h3>Meeting Vendors & Contract Workers</h3>
@@ -150,10 +151,10 @@ function KeyHolderPage(props) {
                   you to keep your day, and productivity, intact.
                 </p>
                 <p>
-                  You don’t want deliveries, like wine, gifts or furniture, left
+                  You don’t want deliveries, like wine, gifts, or furniture, left
                   outside to be damaged by weather or become a target for
                   thieves. We will bring them safely indoors. If deliveries need
-                  to be brought in and unpacked, assembled or put in a specific
+                  to be brought in and unpacked, assembled, or put in a specific
                   place, we are there to greet them and supervise the process.
                 </p>
                 <p>
@@ -174,7 +175,7 @@ function KeyHolderPage(props) {
                 <h3>Emergency Services</h3>
                 <p>
                   Emergencies can happen when you are away from your home for an
-                  extended period of time or even when you are at an office
+                  extended period or even when you are at an office
                   downtown. You need someone you trust, who’s bonded and
                   insured, to respond in a timely fashion. Dallas Home Watch is
                   that service. With over 20-years-experience in the North Texas

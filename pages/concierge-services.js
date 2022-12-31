@@ -42,8 +42,8 @@ function ConciergePage(props) {
               <h2>Concierge Services for Home Watch Clients</h2>
               <p>
                 Dallas Home Watch offers personal concierge services while you
-                are away so that you can come home and rest assured that your
-                home is ready to enjoy. Personal Conceirge Services are only
+                are away so that you can come home, and rest assured that your
+                home is ready to enjoy. Personal Concierge Services are only
                 available for Dallas Home Watch clients. Some of the services we
                 provide include but are not limited to the following:
               </p>
@@ -55,17 +55,17 @@ function ConciergePage(props) {
                     <li>
                       Pick Up packages from your front porch and bring inside
                     </li>
-                    <li>Stock your refrigerator with bottle water & sodas.</li>
+                    <li>Stock your refrigerator with bottled water & sodas.</li>
                     <li>Drop Off / Pick Up Dry Cleaning</li>
                   </ul>
                 </div>
 
                 <div className="column col-lg-6 col-md-6 col-sm-6">
                   <ul className="list-style-one">
-                    <li>Clean up debries in yards after storms and tornados</li>
+                    <li>Clean up debris in yards after storms and tornados</li>
                     <li>Open and close home for visiting family or friends</li>
                     <li>Arrange Maid Service, Open & Close the house</li>
-                    <li>Arrange Chef Service for Special Occassions</li>
+                    <li>Arrange Chef Service for Special Occasions</li>
                   </ul>
                 </div>
               </div>
@@ -81,13 +81,11 @@ function ConciergePage(props) {
       <section className="services-page-section">
         <div className="auto-container">
           <div className="blog-detail">
-         
-
             <div className="inner-box">
               <div clasNames="lower-content">
                 <div className="row clearfix">
                   <div className="column col-lg-6 col-md-6 col-sm-6">
-                    <h2 className="blue">What is Conceirge Services?</h2>
+                    <h2 className="blue">What are Concierge Services?</h2>
                     <p>
                       Think of Dallas Home Watch as your personal assistant
                       while you are away.
@@ -119,7 +117,7 @@ function ConciergePage(props) {
                     </p>
                     <p>
                       If you don’t see the service you need, please contact us
-                      as this is only some of the services we can offer our
+                      as this is only some of the services, we can offer our
                       homeowners.{" "}
                     </p>
                   </div>
@@ -134,8 +132,6 @@ function ConciergePage(props) {
                     </div>
                   </div>
                 </div>
-
-               
               </div>
             </div>
           </div>

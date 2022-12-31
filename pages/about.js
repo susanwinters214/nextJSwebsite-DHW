@@ -26,7 +26,6 @@ function AboutPage() {
         </div>
       </section>
 
-    
       <section className="case-section">
         <div className="auto-container">
           <div className="inner-container">
@@ -41,21 +40,22 @@ function AboutPage() {
                   <div className="text">
                     <p className="first">
                       After 20+ years in personalized estate management, we have
-                      gained the experience to throughly check on your luxury
+                      gained the experience to thoroughly check on your luxury
                       home or property with thorough checks to mitigate issues
                       together prior to your return.
                     </p>
 
                     <p>
                       We want to ease your worries while you are away by
-                      automatically checking the interior and exterior of your home. We also inspect your attic
-                      after major storms looking for roof damage and water leaks. 
+                      automatically checking the interior and exterior of your
+                      home. We also inspect your attic after major storms
+                      looking for roof damage and water leaks.
                     </p>
                   </div>
                   <div className="text-box">
-                    I am personally reachable because I actually care and know
-                    you deserve a real response when you trust your home to
-                    Dallas Home Watch.
+                    I am personally reachable because I care and know you
+                    deserve a real response when you trust your home to Dallas
+                    Home Watch.
                   </div>
                 </div>
               </div>
@@ -68,7 +68,7 @@ function AboutPage() {
                     data-wow-duration="1500ms"
                   >
                     <center>
-                      <Image                        
+                      <Image
                         src="/images/tina-lawson.jpg"
                         alt="Tina Lawson"
                         width={300}
@@ -79,14 +79,18 @@ function AboutPage() {
                       <a href="https://www.linkedin.com/in/tina-lawson-a57252254/">
                         Tina Lawson
                       </a>
-                      , Owner of Dallas Home Watch
+                      , Owner of&nbsp;
+                      <a
+                        href="https://www.linkedin.com/company/89597128/admin/">
+                        Dallas Home Watch
+                      </a>
                       <br />
                       <br />
                       <p className="about">
                         Dallas Home Watch provides the service of discreetly
-                        checking your home while you are away. The home owner
-                        can designate the preferred frequency of visits and we
-                        work together toward any solution should property issues
+                        checking your home while you are away. The homeowner can
+                        designate the preferred frequency of visits and we work
+                        together toward any solution should property issues
                         arise.
                       </p>
                     </center>

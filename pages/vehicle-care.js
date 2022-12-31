@@ -11,7 +11,7 @@ function VehicleCarePage(props) {
         <title>Vehicle Care | Dallas Home Watch </title>
         <meta
           name="description"
-          content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients."
+          content="Dallas Home Watch offers Vehicle Care for existing Home Watch clients. DHW can watch your car while you are away from home for long periods of time."
         />
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
@@ -73,7 +73,7 @@ function VehicleCarePage(props) {
                         <li>Tesla</li>
                         <li>Mercedes</li>
                         <li>Cadillac</li>
-                        <li>Porche</li>
+                        <li>Porsche</li>
                       </ul>
                     </div>
                     <div className="column col-lg-6 col-md-6 col-sm-6">
@@ -108,7 +108,7 @@ function VehicleCarePage(props) {
       {/* insert section component with Photos & Keywords */}
       <section className="services-page-section">
         <div className="auto-container">
-          {/* Services Block Three */}
+          {/* Services Car Batteries */}
           <div className="services-block-three">
             <div
               className="inner-box wow fadeInUp"
@@ -119,7 +119,7 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h3 className="boxTitle">Car Batteries</h3>
+                    <h4 className="boxTitle">Car Batteries</h4>
                     <div className="text">
                       Dallas Home Watch will check the wall battery of your
                       luxury vehicles to ensure your car is getting power.
@@ -147,7 +147,7 @@ function VehicleCarePage(props) {
               </div>
             </div>
           </div>
-          {/* Services Block Three */}
+          {/* Services Car Service */}
           <div className="services-block-three style-two">
             <div
               className="inner-box wow fadeInUp"
@@ -171,7 +171,7 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h3 className="boxTitle">Car Service</h3>
+                    <h4 className="boxTitle">Car Service</h4>
                     <div className="text">
                       We will keep an eye on the vehicles you have in your
                       garage and inform you if any tires are obviously low on
@@ -185,7 +185,7 @@ function VehicleCarePage(props) {
               </div>
             </div>
           </div>
-          {/* Services Block Three */}
+          {/* Services Garage Door Openers */}
           <div className="services-block-three">
             <div
               className="inner-box wow fadeInUp"
@@ -196,7 +196,7 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h3 className="boxTitle">Garage Door Openers</h3>
+                    <h4 className="boxTitle">Garage Door Openers</h4>
                     <div className="text">
                       Dallas Home Watch will make sure that your garage door
                       openers are working properly and can meet with your garage
@@ -221,7 +221,7 @@ function VehicleCarePage(props) {
               </div>
             </div>
           </div>
-          {/* Services Block Three */}
+          {/* Services Garage Door Entries */}
           <div className="services-block-three style-two">
             <div
               className="inner-box wow fadeInUp"
@@ -245,7 +245,7 @@ function VehicleCarePage(props) {
                 {/* Content Column */}
                 <div className="content-column col-lg-6 col-md-12 col-sm-12">
                   <div className="inner-column">
-                    <h3 className="boxTitle">Garage Door Entries</h3>
+                    <h4 className="boxTitle">Garage Door Entries</h4>
 
                     <div className="text">
                       Dallas Home Watch will check your external wireless keypad

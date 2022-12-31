@@ -8,10 +8,7 @@ function PrivacyPage() {
     <Fragment>
       <Head>
         <title>Privacy Policy</title>
-        <meta
-          name="description"
-          content="Privacy Policy for Dallas Home Watch"
-        />
+        <meta name="description"   content="Privacy Policy for Dallas Home Watch" />
       </Head>
 
       {/* insert top banner with Page Title & Breadcrumb*/}

@@ -78,7 +78,9 @@ function MainNavigation() {
                   <span className="icon flaticon-smartphone-1" />
                   Call US Today!
                   <strong>
-                    <a className="phoneNumberLink" href="tel:972-982-7050">972-982-7050</a>
+                    <a className="phoneNumberLink" href="tel:972-982-7050">
+                      972-982-7050
+                    </a>
                   </strong>
                 </div>
               </div>
@@ -107,37 +109,32 @@ function MainNavigation() {
             <br />
             <div className="menu-mobile">
               <hr />
-              <Link className="mobile-link" href="/homewatch-checklist">
-                HomeWatch Checklist
-              </Link>
-              <br />
-              <Link className="mobile-link" href="/keyholder-services">
-                Key Holder Services
-              </Link>
-              <br />
-              <Link className="mobile-link" href="/concierge-services">
-                Concierge Services
-              </Link>
-              <br />
-              <Link className="mobile-link" href="/vehicle-care">
-                Vehicle Care
-              </Link>
-              <hr />
-              <Link className="mobile-link" href="/about">
-                About
-              </Link>
-              <br />
-              <Link className="mobile-link" href="/contact">
-                Contact
-              </Link>
-              <br />
-              <Link className="mobile-link" href="/news">
-                News
-              </Link>
-              <br />
-              <Link className="mobile-link" href="/accreditation">
-                Accreditation
-              </Link>
+              <div className="moveRight">
+                <Link className="mobile-link" href="/homewatch-checklist">
+                  HomeWatch Checklist
+                </Link>
+                <br />
+                <br />
+                <Link className="mobile-link" href="/keyholder-services">
+                  Key Holder Services
+                </Link>
+                <br />
+                <br />
+                <Link className="mobile-link" href="/concierge-services">
+                  Concierge Services
+                </Link>
+                <br />
+                <br />
+                <Link className="mobile-link" href="/vehicle-care">
+                  Vehicle Care
+                </Link>
+                <br />
+                <br />
+                <Link className="mobile-link" href="/about">
+                  About Dallas Home Watch
+                </Link>
+                <br />
+              </div>
             </div>
           </div>
         </nav>

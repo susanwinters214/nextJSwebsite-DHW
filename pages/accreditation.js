@@ -9,7 +9,6 @@ function AccreditationPage(props) {
     <Fragment>
       <Head>
         <title>Dallas Home Watch Accreditation</title>
-
         <meta
           name="description"
           content="Dallas Home Watch received Accreditation from the National Home Watch Association."
@@ -75,6 +74,7 @@ function AccreditationPage(props) {
                       alt="Accredited Home Watch Memeber of National Home Watch Association"
                     />
                     <a
+                      rel="nofollow"
                       href="https://www.nationalhomewatchassociation.org/"
                       target="_blank"
                       className="arrow flaticon-right"
@@ -123,9 +123,9 @@ function AccreditationPage(props) {
                       an accurate information to you during your absence.
                     </li>
                     <li className="accred">
-                      An Accredited Home Watch service can make arrangements for
-                      work to be done in your absence, leaving you to do what
-                      you wish once you return.
+                      An Accredited Home Watch service can meet with contractors
+                      for work to be done in your absence, leaving you to do
+                      what you wish once you return.
                     </li>
                     <li className="accred">
                       An Accredited Home Watch service can act as your liaison
@@ -245,7 +245,7 @@ function AccreditationPage(props) {
                         <div className="content">
                           <div className="icon flaticon-trophy-2" />
                           <div className="count-outer count-box"></div>
-                          <div className="counter-title">Accredited</div>
+                          <div className="counter-title">Accredited:</div>
                           <p>By National Home Watch Association</p>
                         </div>
                       </div>

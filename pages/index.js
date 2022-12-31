@@ -1,32 +1,11 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
 import Link from "next/link";
+import Image from "next/image";
 import FeaturedPosts from "../components/home-page/featured-posts";
 import { getFeaturedPosts } from '../lib/posts-util';
 
-const DUMMY_POST = [
-  {
-    slug: "gates",
-    title: "Security Gates",
-    image: "securing-gate.jpg",
-    excerpt: "Tina Closing Gate",
-    date: "12/01/2022",
-  },
-  {
-    slug: "mastering-javascript",
-    title: "Day Two",
-    image: "mastering-js-thumb.png",
-    excerpt: "Mastering JAVASCRIPT",
-    date: "12/08/2022",
-  },
-  {
-    slug: "getting-started-with-nextjs",
-    title: "THE END",
-    image: "getting-started-with-nextjs.png",
-    excerpt: "This is a great way to get started",
-    date: "12/15/2022",
-  },
-];
+
 
 function HomePage(props) {
   return (
@@ -37,7 +16,6 @@ function HomePage(props) {
           name="description"
           content="Dallas Home Watch is company that provides professional Home Watch Services for home owners in Dallas. Home Watch professionals perform a visual inspection of your home while you are away and alert you of any concerns about the conditions of the real estate."
         />
-
       </Head>
       {/* insert top banner with Page Title & Breadcrumb*/}
       <section className="banner-section">
@@ -76,18 +54,16 @@ function HomePage(props) {
                         {/* Services Block HOME WATCH*/}
                         <div className="services-block col-lg-6 col-md-12 col-sm-12">
                           <div className="homepagetopcontent">
-                            <div className="hptitle" id="Luxury">
-                              Luxury Estate Services
-                            </div>
                             <h1>
                               Dallas <br /> Home Watch Services
                             </h1>
+                            <br />
                             <h2 className="textHome">
                               Home Watch is a service that performs visual
                               inspections of a home or property, looking for
                               obvious issues.
                             </h2>
-
+                            <br />
                             <div className="btns-box">
                               <a
                                 href="tel:972-982-7050"
@@ -101,7 +77,7 @@ function HomePage(props) {
                             </div>
                           </div>
                           <h3 className="textHome2">
-                            Home watch inspections provide peace of mind about
+                            Home Watch inspections provide peace of mind about
                             your property while you are away.
                           </h3>
                         </div>
@@ -230,9 +206,11 @@ function HomePage(props) {
               <div className="image-column col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="image title" data-tilt="" data-tilt-max={2}>
-                    <img
-                      src="images/garage-door-entry-doorway.jpg"
-                      alt="home watch professional checking garage door entry"
+                    <Image
+                      width={585}
+                      height={725}
+                      src="/images/home-watch-professional-checking-doors.jpg"
+                      alt="home-watch-professional-checking-doors"
                     />
                   </div>
                   <div
@@ -256,15 +234,16 @@ function HomePage(props) {
                     <div className="text">
                       We are a professional, knowledgeable, and certified Home
                       Watch Business in Dallas County. We work very hard to
-                      provide the highest quality resident services you'll ever
+                      provide the highest quality residential services you'll ever
                       experience.
                     </div>
+                    <br />
                   </div>
                   <ul className="list-style-one">
                     <li>Home Watch Services</li>
-                    <li>Key Holder for Vendor Access</li>
+                    <li>Key Holder for Contractors</li>
                     <li>Concierge Services</li>
-                    <li>Automobile &amp; Battery Checks </li>
+                    <li>Vehicle Care </li>
                   </ul>
                   <div className="btns-box">
                     <a
@@ -303,13 +282,13 @@ function HomePage(props) {
           {/* Sec Title */}
           <div className="sec-title light centered">
             <h3 className="blueBkg">
-              20+ Years Experience in the Home Watch Business
+              20+ Years' Experience in the Home Watch Business
             </h3>
             <div className="text" style={{ fontSize: "2em" }}>
               Risk mitigation is the process of planning for disasters and
               having a way to lessen the negative impact. Our goal is to
               visually inspect a home or property looking for obvious issues and
-              notifying the home owner - working as a team to give vendors
+              notifying the homeowner - working as a team to give vendors
               access to fix small problems before they become big problems.
             </div>
           </div>
@@ -354,7 +333,7 @@ function HomePage(props) {
                       for issues that may warrant a call to the homeowner
                       informing them of problems. These might include a leaky
                       faucet, clogged drain, air conditioning or heating issue,
-                      pool or fountain pump problem and more. The larger the
+                      pool, or fountain pump problem and more. The larger the
                       home, the more that can go wrong and, if left unattended,
                       small problems can quickly lead to larger, more costly
                       ones.
@@ -363,7 +342,7 @@ function HomePage(props) {
                       The longer a house sits vacant, the bigger the potential
                       for unauthorized persons to trespass or intrude on your
                       property. Dallas Home Watch services include bringing in
-                      the mail, boxes or newspapers from the front porch to help
+                      the mail, boxes, or newspapers from the front porch to help
                       keep from signaling that the homeowners are gone.
                     </p>
                     <p>
@@ -377,8 +356,8 @@ function HomePage(props) {
                       they are away.
                     </p>
                     <p>
-                      If you plan to leave your home vacant for more that 7
-                      days, call us to schedule the Dallas Home Watch services
+                      If you plan to leave your home vacant for more than 7
+                      consecutive days, call us to schedule the Dallas Home Watch services
                       that suit your needs.
                     </p>
 
@@ -413,9 +392,11 @@ function HomePage(props) {
                         {/* Column */}
                         <div className="column col-lg-6 col-md-6 col-sm-12">
                           <div className="image">
-                            <img
-                              src="images/checking-security-alarm.jpg"
-                              alt=""
+                            <Image
+                              width={585}
+                              height={350}
+                              src="/images/home-watch-professional-front-entry.jpg"
+                              alt="home-watch-professional-checking-doors"
                             />
                           </div>
                         </div>
@@ -425,7 +406,7 @@ function HomePage(props) {
                             We enter your property according to the schedule
                             agreed upon and perform all agreed upon tasks. In
                             addition, we perform a visual inspection of the
-                            property, either inside, outside or both. We take
+                            property, either inside, outside, or both. We take
                             photos and/or videos of potential problems and send
                             them to the homeowner via text or email, depending
                             on the client’s preference.

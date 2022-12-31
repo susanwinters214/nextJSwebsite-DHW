@@ -28,19 +28,21 @@ a.phoneNumberLink:hover{
 .socialiconsfooter{margin: auto; width: 50%; padding: 10px;}
 .center {  margin: auto;  width: 50%;  padding: 10px;}
 /*Background Images for each page: */
+.pageback-404{background-image:url(/images/background/dallas-skyline.jpg)}
 .pageback-homepage{background-image:url(/images/background/open-front-door-960x496.jpg)}
 .pageback-about{background-image:url(/images/background/dallas-skyline.jpg)}
 .pageback-accred{background-image:url(/images/background/certification.jpg)}
 .pageback-con{background-image:url(/images/concierge-services/pickup-dry-cleaning.jpg)}
 .pageback-contact{background-image:url(/images/background/gated-community.jpg)}
-.pageback-hwchk{background-image:url(/images/background/homewatch-garage-services.jpg)}
-.pageback-keyh{background-image:url(/images/background/shaking-hands.jpg)}
+.pageback-hwchk{background-image:url(/images/background/home-watch-enters-front-door.jpg)}
+.pageback-keyh{background-image:url(/images/background/house-keys-down.jpg)}
 .pageback-news{background-image:url(/images/background/home-watch-news.jpg)}
 .pageback-privacy{background-image:url(/images/background/home-watch-news.jpg)}
 .pageback-terms{background-image:url(/images/background/home-watch-news.jpg)}
 .pageback-vehcare{background-image:url(/images/car-care/luxury-cars.jpg)}
 .pageback-blog{background-image:url(/images/background/dallas-skyline.jpg)}
 
+.lost{color:white}
 ul.sliderLogos{
 list-style-type: none;
   margin: 0;
@@ -155,3 +157,6 @@ p.about{padding:20px;margin-left:10%;margin-right:10%}
 .blogArticle  ol li {list-style-type: disc; font-size:.85em; margin-left:5%}
 .blogArticle  ul li {list-style-type: disc; font-size:.85em; margin-left:5%}
 .blogArticle p{padding-top:15px}
+
+h2{padding-bottom:25px;}
+.moveRight{margin-left:15px;}
